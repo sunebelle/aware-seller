@@ -1,1 +1,2 @@
 https://cloud.mongodb.com/v2/6163e1a2b203082e96440819#clusters
+This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
