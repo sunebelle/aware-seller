@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 // import bcrypt from "bcryptjs";
 // import crypto from "crypto";
-import User from "./models/user.js";
+import User from "../models/user.js";
 import dotenv from "dotenv";
 dotenv.config();
 const signToken = (id) => {
@@ -35,7 +35,7 @@ const createSendToken = (user, statusCode, res) => {
     },
   });
 };
-export const register = (req, res) => {
+export const register = async (req, res) => {
   const { name, email, password, role } = req.body;
 
   const newUser = await User.create({
@@ -47,7 +47,7 @@ export const register = (req, res) => {
   createSendToken(newUser, 201, res);
 };
 
-export const login = (req, res) => {
+export const login = async (req, res) => {
   const { email, password } = req.body;
   if (!email || !password) {
     throw new Error("Please provide your email and password");
