@@ -1,9 +1,23 @@
 import express from "express";
-import { register, login } from "../controllers/auth.js";
+import {
+  register,
+  login,
+  logout,
+  forgotPassword,
+  resetPassword,
+  updatePassword,
+  protect,
+} from "../controllers/auth.js";
 const router = express.Router();
-
+//"/api/v1/user"
 router.post("/register", register);
 router.post("/login", login);
-router.get("/all", (req, res) => res.send("Hello world"));
+router.get("/logout", logout);
+router.post("/forgotPassword", forgotPassword);
+router.patch("/resetPassword/:token", resetPassword);
+
+//Protect all routes after this middleware
+router.use(protect);
+router.patch("/updatePassword", updatePassword);
 
 export default router;
