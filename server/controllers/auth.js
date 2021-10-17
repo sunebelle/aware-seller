@@ -14,7 +14,7 @@ const signToken = (id) => {
   });
 };
 
-const createSendToken = (user, statusCode, res) => {
+const createSendToken = (user, statusCode, res, message) => {
   const token = signToken(user._id);
 
   const cookieOptions = {
@@ -23,7 +23,7 @@ const createSendToken = (user, statusCode, res) => {
     ),
     httpOnly: true,
   };
-  if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
+  // if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
 
   res.cookie("jwt", token, cookieOptions);
   // console.log(token);
@@ -36,10 +36,17 @@ const createSendToken = (user, statusCode, res) => {
     data: {
       user,
     },
+    message,
   });
 };
 export const register = catchAsync(async (req, res, next) => {
   const { name, email, password, role } = req.body;
+  const existingUser = await User.findOne({ email });
+  if (existingUser) {
+    return next(
+      new AppError("E-mail already exists. Please enter another name", 400)
+    );
+  }
 
   const newUser = await User.create({
     name,
@@ -47,7 +54,7 @@ export const register = catchAsync(async (req, res, next) => {
     password,
     role,
   });
-  createSendToken(newUser, 201, res);
+  createSendToken(newUser, 201, res, "successfully create new account");
 });
 
 export const login = catchAsync(async (req, res, next) => {
@@ -95,9 +102,11 @@ export const forgotPassword = catchAsync(async (req, res, next) => {
   try {
     // console.log(req.protocol); || http
     // console.log(req.get("host")); || localhost: 5000
-    const resetURL = `${req.protocol}://${req.get(
-      "host"
-    )}/api/v1/user/reset-password/${resetToken}`;
+
+    // const resetURL = `${req.protocol}://${req.get(
+    //   "host"
+    // )}/api/v1/user/reset-password/${resetToken}`;
+    const resetURL = `http://localhost:3000/user/reset-password/${resetToken}`;
     const message = `Please click the link below to enter your new password.\n${resetURL}.\nIf you do not forget password, please ignore this email.`;
     await sendEmail({
       subject: "Forgot Password (valid for 10 mins)",

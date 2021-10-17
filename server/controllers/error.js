@@ -9,9 +9,10 @@ const handleCastErrorDB = (error) => {
 const handleDuplicateFieldsDB = (error) => {
   // const value = error.keyValue.email;
   const value = Object.values(error.keyValue).map((el) => el);
-  const message = `The name "${value.join(
-    " "
-  )}" already exists. Please enter another name`;
+  // const message = `The name "${value.join(
+  //   " "
+  // )}" already exists. Please enter another name`;
+  const message = "E-mail already exists. Please enter another name";
   return new AppError(message, 400);
 };
 
@@ -28,7 +29,7 @@ const handleJWTExpiredError = () =>
   new AppError("Your token has expired! Please log in again.", 401);
 
 const sendErrorDev = (err, req, res) => {
-    // A) API
+  // A) API
   if (req.originalUrl.startsWith("/api")) {
     return res.status(err.statusCode).json({
       status: err.status,

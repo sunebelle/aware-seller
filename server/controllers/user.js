@@ -11,6 +11,7 @@ export const getAllUsers = catchAsync(async (req, res, next) => {
 });
 
 export const updateUser = catchAsync(async (req, res, next) => {
+  console.log(req.body);
   const { name, email } = req.body;
   if (req.body.password) {
     return next(new AppError("This route is not for updating password", 400));
@@ -27,8 +28,8 @@ export const updateUser = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: "success",
     data: {
-      updatedUser,
+      user: updatedUser,
     },
-    message: "successfully updated user's doc",
+    // message: "successfully updated user's doc",
   });
 });
