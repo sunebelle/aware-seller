@@ -32,19 +32,20 @@ const createSendToken = (user, statusCode, res) => {
   user.password = undefined;
   res.status(statusCode).json({
     status: "success",
-    // token,
+    token,
     data: {
       user,
     },
   });
 };
 export const register = catchAsync(async (req, res, next) => {
-  const { name, email, password } = req.body;
+  const { name, email, password, role } = req.body;
 
   const newUser = await User.create({
     name,
     email,
     password,
+    role,
   });
   createSendToken(newUser, 201, res);
 });
@@ -53,17 +54,19 @@ export const login = catchAsync(async (req, res, next) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    next(new AppError("Please provide your email and password", 400));
+    return next(new AppError("Please provide your email and password", 400));
   }
   const existingUser = await User.findOne({ email }).select("+password");
-  if (!existingUser) next(new AppError("Found no user with given email", 404));
+  if (!existingUser) {
+    return next(new AppError("Found no user with given email", 404));
+  }
   const isValid = await existingUser.correctPassword(
     password,
     existingUser.password
   );
 
   if (!isValid) {
-    next(new AppError("Your email or password is not correct", 400));
+    return next(new AppError("Your e-mail/password is invalid!", 400));
   }
   createSendToken(existingUser, 200, res);
 });
@@ -76,50 +79,6 @@ export const logout = (req, res) => {
   res.status(200).json({ status: "success" });
 };
 
-export const protect = catchAsync(async (req, res, next) => {
-  // console.log(req.cookies);
-  // console.log(req.headers);
-  // 1. getting token
-  let token;
-  const auth = req.headers.authorization;
-  if (auth && auth.startsWith("Bearer")) {
-    token = auth.split(" ")[1];
-  } else if (req.cookies.jwt) {
-    token = req.cookies.jwt;
-  }
-  if (!token) next(new AppError("Found no token", 404));
-  // 2. validate/ verify token
-  const decoded = await jwt.verify(token, process.env.TOKEN_SECRET);
-  if (!decoded) next(new AppError("invalid token", 400));
-  // 3. check user existence
-  const existingUser = await User.findById(decoded.id);
-  if (!existingUser) next(new AppError("Found no user", 404));
-  // 4. check if user changed password after the token is issued
-
-  if (existingUser.changedPasswordAfter(decoded.iat)) {
-    return next(
-      new AppError("User recently changed password! Please log in again.", 401)
-    );
-  }
-
-  // grant access to protected routes
-  req.user = existingUser;
-  next();
-});
-
-export const restrictTo = (...roles) => {
-  return (req, res, next) => {
-    // authController.restrictTo("admin")
-    // roles = ["admin"]
-    // with the User role that does not includes in roles array => Error
-    if (!roles.includes(req.user.role)) {
-      next(
-        new AppError("You do not have permission to perform this action", 403)
-      );
-    }
-    next();
-  };
-};
 export const forgotPassword = catchAsync(async (req, res, next) => {
   // 1. get user based on posted email
   const user = await User.findOne({ email: req.body.email });
@@ -138,12 +97,12 @@ export const forgotPassword = catchAsync(async (req, res, next) => {
     // console.log(req.get("host")); || localhost: 5000
     const resetURL = `${req.protocol}://${req.get(
       "host"
-    )}/api/v1/user/resetPassword/${resetToken}`;
+    )}/api/v1/user/reset-password/${resetToken}`;
     const message = `Please click the link below to enter your new password.\n${resetURL}.\nIf you do not forget password, please ignore this email.`;
     await sendEmail({
       subject: "Forgot Password (valid for 10 mins)",
-      email: user.email,
-      message,
+      to: user.email,
+      text: message,
     });
 
     res.status(200).json({
@@ -189,17 +148,28 @@ export const resetPassword = catchAsync(async (req, res, next) => {
 
 export const updatePassword = catchAsync(async (req, res, next) => {
   //1. get user from collection
-  // console.log(req.body);
-  // console.log(req.user);
+  const { currentPassword, newPassword, confirmPassword } = req.body;
+
+  if (!currentPassword || !newPassword || !confirmPassword) {
+    return next(
+      new AppError("Please provide your password and new password", 400)
+    );
+  }
   const user = await User.findById(req.user.id).select("+password");
   //2. check if the posted password is correct
-  const validPassword = await bcrypt.compare(req.body.password, user.password);
+  const validPassword = await bcrypt.compare(currentPassword, user.password);
   // console.log(validPassword);
   if (!validPassword) {
     return next(new AppError("Password is incorrect", 400));
   }
+  // Compare newPassword vs confirmPassword
+  if (newPassword !== confirmPassword) {
+    return next(
+      new AppError("Password does not match. Please recheck again!", 400)
+    );
+  }
   // 3. update the password
-  user.password = req.body.newPassword;
+  user.password = newPassword;
   //  User.findByIdAndUpdate will not work, never use update for users, because validator will not work with update method
   await user.save();
 
