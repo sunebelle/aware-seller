@@ -1,3 +1,4 @@
+//https://electerious.medium.com/from-commonjs-to-es-modules-how-to-modernize-your-node-js-app-ad8cdd4fb662
 import express from "express";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
@@ -7,6 +8,7 @@ import helmet from "helmet";
 import mongoSanitize from "express-mongo-sanitize";
 import xss from "xss-clean";
 import userRouter from "./routes/user.js";
+import productRouter from "./routes/product.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./controllers/error.js";
 
@@ -60,7 +62,7 @@ app.use((req, res, next) => {
 
 // 3. routes
 app.use("/api/v1/user", userRouter);
-// app.use("/api/v1/products")
+app.use("/api/v1/products", productRouter);
 //app.use("/api/v1/sellers")
 
 app.all("*", (req, res, next) => {

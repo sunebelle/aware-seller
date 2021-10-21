@@ -11,11 +11,13 @@ export const getAllUsers = catchAsync(async (req, res, next) => {
 });
 
 export const updateUser = catchAsync(async (req, res, next) => {
-  console.log(req.body);
   const { name, email } = req.body;
+  // const obj = {name: req.body.name, email: req.body.email}
   if (req.body.password) {
     return next(new AppError("This route is not for updating password", 400));
   }
+  //https://stackoverflow.com/questions/286141/remove-blank-attributes-from-an-object-in-javascript
+  // let updateField = Object.fromEntries(Object.entries(obj).filter(([_, v]) => v != null));
   const updatedUser = await User.findByIdAndUpdate(
     req.user.id,
     { email, name },
