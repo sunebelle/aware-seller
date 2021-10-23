@@ -34,8 +34,8 @@ const categories = JSON.parse(
 const importData = async () => {
   try {
     await Product.create(products);
-    await Pattern.create(patterns);
-    await Category.create(categories);
+    // await Pattern.create(patterns);
+    // await Category.create(categories);
     // await Review.create(reviews);
     // await User.create(users, { validateBeforeSave: false });
     console.log("data successfully added to the DB");
@@ -49,8 +49,8 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Product.deleteMany();
-    await Pattern.deleteMany();
-    await Category.deleteMany();
+    // await Pattern.deleteMany();
+    // await Category.deleteMany();
     // await User.deleteMany();
     // await Review.deleteMany();
     console.log("Data successfully deleted from the DB");

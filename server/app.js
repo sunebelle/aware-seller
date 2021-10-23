@@ -61,6 +61,7 @@ app.use((req, res, next) => {
 });
 
 // 3. routes
+
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/products", productRouter);
 //app.use("/api/v1/sellers")

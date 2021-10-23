@@ -1,4 +1,3 @@
-import { query } from "express";
 import Product from "../models/product.js";
 import AppError from "../utils/appError.js";
 import catchAsync from "../utils/catchAsync.js";
@@ -17,7 +16,7 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
 
   //1, filtering
   // const excludedField = ["page", "sort","color", "size", "category", "price",];
-  const excludedField = ["page", "sort", "price"];
+  const excludedField = ["page", "sort", "price", "popularity"];
   excludedField.forEach((el) => delete queryObj[el]);
 
   const specialField = ["color", "size", "category"];
@@ -50,6 +49,7 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
   } else {
     query = query.sort("-createdAt"); //newest one appear first
   }
+
   //3. limit  20 results/ page
   const page = req.query.page * 1 || 1;
   const limit = req.query.limit * 1 || 20;
@@ -58,11 +58,15 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
 
   //Execute query
   const products = await query;
+  const totalOfProducts = await Product.countDocuments();
+
   if (!products) {
     return new AppError("No result found", 404);
   }
+
   res.status(201).json({
     status: "successfully get all products",
+    numberOfPages: Math.ceil(totalOfProducts / limit),
     result: products.length,
     data: products,
   });
