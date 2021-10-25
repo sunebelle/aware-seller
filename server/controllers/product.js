@@ -71,3 +71,17 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
     data: products,
   });
 });
+
+export const getProduct = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  // console.log(id);
+  const product = await Product.findById(id);
+  if (!product) {
+    return next(new AppError("No product was found", 404));
+  }
+
+  res.status(201).json({
+    data: product,
+    message: "The product with provided ID is being found",
+  });
+});
