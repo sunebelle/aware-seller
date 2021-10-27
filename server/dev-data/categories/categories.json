@@ -1,0 +1,340 @@
+  [
+    {
+        "name":"Ladies",
+        "categories":[
+            {
+                "name":"Tops",
+                "categories":[
+                    {"name": "Tank tops "},
+                    {"name": "Casual Button Up Shirts"},
+                    {"name": "Polos"},
+                    {"name": "Bodysuits"},
+                    {"name": "Leotards "},
+                    {"name": "Blouses"},
+                    {"name": "T-shirts"}
+                   
+                ]
+            },
+            {
+                "name":"Bottoms",
+                "categories":[
+                    {"name": " Elastic Waist"},
+                    {"name": "Size Jeans"},
+                    {"name": "Skinny Jean Pants"},
+                    {"name": "Pencil Skirt "},
+                    {"name": "Trousers"},
+                    {"name": "Short Pants"},
+                    {"name": "Long Pants"}
+                ]
+            },
+            {
+                "name":"Dresses",
+                "categories":[
+                    {"name": "Rompers / Jumpsuits"},
+                    {"name": "Casual dresses"},
+                    {"name": "Going out dresses"},
+                    {"name": "Party / Ocassion dresses"},
+                    {"name": "Mini dresses"},
+                    {"name": "Maxi / Midi dresses"},
+                    {"name": "Sets"}
+                ]
+            },
+            {
+                "name":"Jackets",
+                "categories":[
+                    {"name": " Spring Jackets"},
+                    {"name": "Summer Jackets"},
+                    {"name": "Autumn Jackets"},
+                    {"name": " Winter Jackets"},
+                    {"name": " Rain Jackets"},
+                    {"name": "Down and Insulated Coasts"},
+                    {"name": "Ski and Snowboard Jackets"}
+                ]
+            },
+            {
+                "name":"Shoes",
+                "categories":[
+                    {"name": " Sneakers & Athletic"},
+                    {"name": "Sandals"},
+                    {"name": "Clogs & Mules"},
+                    {"name": " Boots & Booties"},
+                    {"name": "Slippers"},
+                    {"name": "Loafers"},
+                    {"name": "Comfort"}
+                ]
+            },
+            {
+                "name":"Accesories",
+                "categories":[
+                    {"name": " Backpacks"},
+                    {"name": "Belt Bags"},
+                    {"name": "Sunglasses "},
+                    {"name": "Statement Earrings"},
+                    {"name": "Face Masks"},
+                    {"name": "Tech Accessories"},
+                    {"name": "Hats"}
+                ]
+            },
+            {
+                "name":"Sale",
+                "categories":[
+                    {"name": "Sneakers & Athletic "},
+                    {"name": "Heels"},
+                    {"name": "Sandals"},
+                    {"name": "Slippers "},
+                    {"name": "Boots"},
+                    {"name": "Shirts and Tops"},
+                    {"name": "Dresses"}
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Men",
+        "categories":[
+            {
+                "name":"Tops",
+                "categories":[
+                    {"name": " T-shirts "},
+                    {"name": "Casual Button Up Shirts"},
+                    {"name": "Polos"},
+                    {"name": " Activewear Shirts"},
+                    {"name": "Dress Shirts"},
+                    {"name": "Tank Tops"},
+                    {"name": "Leotards"}
+                   
+                ]
+            },
+            {
+                "name":"Bottoms",
+                "categories":[
+                    {"name": "Flat Front Pants "},
+                    {"name": "Joggers"},
+                    {"name": "Trousers"},
+                    {"name": "Activewear Pants "},
+                    {"name": "Loungewear Pants"},
+                    {"name": "Chinos"},
+                    {"name": "Cargo Pants"}
+                ]
+            },
+            
+            {
+                "name":"Jackets",
+                "categories":[
+                    {"name": " Sweatshirts"},
+                    {"name": "Sweatshirts Hoodies"},
+                    {"name": "Vests"},
+                    {"name": " Rain Jackets"},
+                    {"name": "Blazers"},
+                    {"name": "Down and Insulated Coasts"},
+                    {"name": "Ski and Snowboard Jackets"}
+                ]
+            },
+            {
+                "name":"Shoes",
+                "categories":[
+                    {"name": "Sneakers & Athletic"},
+                    {"name": "Boots"},
+                    {"name": "Running Shoes"},
+                    {"name": "Sandals "},
+                    {"name": "Boat Shoes"},
+                    {"name": "Loafers"},
+                    {"name": "Oxfords"}
+                ]
+            },
+            {
+                "name":"Accesories",
+                "categories":[
+                    {"name": " Bags"},
+                    {"name": "Hats"},
+                    {"name": "Sunglasses & Eyewear"},
+                    {"name": "Belts "},
+                    {"name": "Watches"},
+                    {"name": "Ties & Pocket Squares"},
+                    {"name": "Gloves"}
+                ]
+            },
+            {
+                "name":"Sale",
+                "categories":[
+                    {"name": "Sneakers & Athletic "},
+                    {"name": "Boots"},
+                    {"name": "Shirts and Tops"},
+                    {"name": " Denim"},
+                    {"name": "Shorts"},
+                    {"name": "Swim"},
+                    {"name": "Watches"}
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Boys",
+        "categories":[
+            {
+                "name":"Tops",
+                "categories":[
+                    {"name": " T-shirts "},
+                    {"name": "Casual Button Up Shirts"},
+                    {"name": "Polos"},
+                    {"name": " Activewear Shirts"},
+                    {"name": "Dress Shirts"},
+                    {"name": "Tank Tops"},
+                    {"name": "Leotards"}
+                   
+                ]
+            },
+            {
+                "name":"Bottoms",
+                "categories":[
+                    {"name": "Flat Front Pants "},
+                    {"name": "Joggers"},
+                    {"name": "Trousers"},
+                    {"name": "Activewear Pants "},
+                    {"name": "Loungewear Pants"},
+                    {"name": "Chinos"},
+                    {"name": "Cargo Pants"}
+                ]
+            },
+            
+            {
+                "name":"Jackets",
+                "categories":[
+                    {"name": " Sweatshirts"},
+                    {"name": "Sweatshirts Hoodies"},
+                    {"name": "Vests"},
+                    {"name": "Blazers"},
+                    {"name": " Rain Jackets"},
+                    {"name": "Down and Insulated Coasts"},
+                    {"name": "Ski and Snowboard Jackets"}
+                ]
+            },
+            {
+                "name":"Shoes",
+                "categories":[
+                    {"name": "Boots "},
+                    {"name": "Sandals"},
+                    {"name": "Loafers"},
+                    {"name": " Hiking Shoes"},
+                    {"name": "Flats"},
+                    {"name": "Sneakers & Athletic"},
+                    {"name": "Boat Shoes"}
+                ]
+            },
+            {
+                "name":"Accesories",
+                "categories":[
+                    {"name": "Backpacks"},
+                    {"name": "Sunglasses"},
+                    {"name": "Hats"},
+                    {"name": "Bags"},
+                    {"name": "Gloves"},
+                    {"name": "Watches"},
+                    {"name": "Tech Accessories"}
+                ]
+            },
+            {
+                "name":"Sale",
+                "categories":[
+                    {"name": " Sneakers"},
+                    {"name": "Sandals"},
+                    {"name": "Loafers"},
+                    {"name": " Hiking Shoes"},
+                    {"name": "Hats"},
+                    {"name": "Bags"},
+                    {"name": "Gloves"}
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Girls",
+        "categories":[
+            {
+                "name":"Tops",
+                "categories":[
+                    {"name": "Tank tops "},
+                    {"name": "Casual Button Up Shirts"},
+                    {"name": "Polos"},
+                    {"name": "Bodysuits"},
+                    {"name": "Leotards "},
+                    {"name": "Blouses"},
+                    {"name": "T-shirts"}
+                   
+                ]
+            },
+            {
+                "name":"Bottoms",
+                "categories":[
+                    {"name": " Elastic Waist"},
+                    {"name": "Size Jeans"},
+                    {"name": "Skinny Jean Pants"},
+                    {"name": "Pencil Skirt "},
+                    {"name": "Trousers"},
+                    {"name": "Short Pants"},
+                    {"name": "Long Pants"}
+                ]
+            },
+            {
+                "name":"Dresses",
+                "categories":[
+                    {"name": "Rompers / Jumpsuits"},
+                    {"name": "Casual dresses"},
+                    {"name": "Going out dresses"},
+                    {"name": "Party / Ocassion dresses"},
+                    {"name": "Mini dresses"},
+                    {"name": "Maxi / Midi dresses"},
+                    {"name": "Sets"}
+                ]
+            },
+            {
+                "name":"Jackets",
+                "categories":[
+                    {"name": " Spring Jackets"},
+                    {"name": "Summer Jackets"},
+                    {"name": "Autumn Jackets"},
+                    {"name": " Winter Jackets"},
+                    {"name": " Rain Jackets"},
+                    {"name": "Down and Insulated Coasts"},
+                    {"name": "Ski and Snowboard Jackets"}
+                ]
+            },
+            {
+                "name":"Shoes",
+                "categories":[
+                    {"name": " Sneakers & Athletic"},
+                    {"name": "Sandals"},
+                    {"name": "Hiking Shoes"},
+                    {"name": " Boots & Booties"},
+                    {"name": "Slippers"},
+                    {"name": "Loafers"},
+                    {"name": "Comfort"}
+                ]
+            },
+            {
+                "name":"Accesories",
+                "categories":[
+                    {"name": " Backpacks"},
+                    {"name": "Belt Bags"},
+                    {"name": "Sunglasses "},
+                    {"name": "Statement Earrings"},
+                    {"name": "Face Masks"},
+                    {"name": "Tech Accessories"},
+                    {"name": "Hats"}
+                ]
+            },
+            {
+                "name":"Sale",
+                "categories":[
+                    {"name": "Sneakers & Athletic "},
+                    {"name": "Belt Bags"},
+                    {"name": "Sunglasses "},
+                    {"name": "Statement Earrings"},
+                    {"name": "Autumn Jackets"},
+                    {"name": " Winter Jackets"},
+                    {"name": "Dresses"}
+                ]
+            }
+        ]
+    }
+]

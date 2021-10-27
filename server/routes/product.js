@@ -12,7 +12,7 @@ router.get("/", getAllProducts);
 router.post("/", createProduct);
 // router.route("/:id").get(getProduct);
 router.get("/:id", getProduct);
-router.get("/ladies/patterns", getAllPatterns);
-router.get("/ladies/dresses/categories", getAllCategories);
+// router.get("/categories", getAllCategories);
+// router.get("/categories/:id", getAllPatterns);
 
 export default router;

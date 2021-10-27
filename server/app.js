@@ -9,6 +9,7 @@ import mongoSanitize from "express-mongo-sanitize";
 import xss from "xss-clean";
 import userRouter from "./routes/user.js";
 import productRouter from "./routes/product.js";
+import categoryRouter from "./routes/category.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./controllers/error.js";
 
@@ -64,6 +65,7 @@ app.use((req, res, next) => {
 
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/products", productRouter);
+app.use("/api/v1/categories", categoryRouter);
 //app.use("/api/v1/sellers")
 
 app.all("*", (req, res, next) => {
