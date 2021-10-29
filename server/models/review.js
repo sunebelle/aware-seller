@@ -32,7 +32,7 @@ const reviewSchema = mongoose.Schema(
   //   toObject: { virtuals: true },
   // }
 );
-
+// prevent dublicating review from a user for a product
 reviewSchema.index({ user: 1, product: 1 }, { unique: true });
 
 reviewSchema.pre(/^find/, function (next) {

@@ -72,7 +72,14 @@ const productSchema = mongoose.Schema(
     //   // Tops/Bottoms/ Dresses/Jackets/Shoes/Accesories/Sale
     //   required: [true, "A product must belong to a type"],
     // },
-    category: [mongoose.Schema.ObjectId],
+    // category: [mongoose.Schema.ObjectId],
+    category: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: "Category",
+        required: [true, "Product must belongs to a category"],
+      },
+    ],
     ratingsAverage: {
       type: Number,
       default: 0,
@@ -96,6 +103,14 @@ const productSchema = mongoose.Schema(
 );
 
 // productSchema.index({ category: 1 }); => having no effect at all.
+
+// productSchema.pre(/^find/, function (next) {
+//   this.populate({
+//     path: "category",
+//     select: "name",
+//   });
+//   next();
+// });
 
 //This virtual will not appear on the tour DB, but with input if it is populated
 productSchema.virtual("reviews", {
