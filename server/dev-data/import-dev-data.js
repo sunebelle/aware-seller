@@ -1,6 +1,5 @@
 import fs from "fs";
 import Product from "../models/product.js";
-import Category from "../models/category.js";
 // import Review from "../models/review.js";
 // import User from "../models/user.js";
 import mongoose from "mongoose";
@@ -14,10 +13,6 @@ mongoose.connect(DB).then(() => console.log("DB connect successfully"));
 const products = JSON.parse(
   fs.readFileSync("./dev-data/products/products.json", "utf8")
 );
-const categories = JSON.parse(
-  fs.readFileSync("./dev-data/categories/categories.json", "utf8")
-);
-
 // not working on yet
 // const reviews = JSON.parse(
 //   fs.readFileSync("./dev-data/reviews/reviews.json", "utf8")
@@ -29,8 +24,7 @@ const categories = JSON.parse(
 // Import data into DB
 const importData = async () => {
   try {
-    // await Product.create(products);
-    await Category.create(categories, { validateBeforeSave: false });
+    await Product.create(products);
     // await Review.create(reviews);
     // await User.create(users, { validateBeforeSave: false });
     console.log("data successfully added to the DB");
@@ -43,9 +37,7 @@ const importData = async () => {
 // DELETE all data from DB
 const deleteData = async () => {
   try {
-    // await Product.deleteMany();
-    // await Pattern.deleteMany();
-    await Category.deleteMany();
+    await Product.deleteMany();
     // await User.deleteMany();
     // await Review.deleteMany();
     console.log("Data successfully deleted from the DB");

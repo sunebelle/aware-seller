@@ -6,14 +6,12 @@
       "price": 75,
       "imageCover":
         "https://tse4.mm.bing.net/th?id=OIP.CKJ9HLX9-Hkf6Q1NyJSFTgHaLG&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L"],
       "color": ["red", "light-gold", "white", "black"],
       "brand": "Zara", 
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits", "Mini dresses"]
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627", "617a47f265367a3e1498562b"]
     },
     {
       "name": "BURBERRY PRORSUM",
@@ -22,7 +20,7 @@
       "price": 10,
       "imageCover":
         "https://tse3.mm.bing.net/th?id=OIP.cTMBqRUg12j7oZgKTinzOgHaLH&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
       "color": [
@@ -35,9 +33,7 @@
         "black"
       ],
       "brand": "Dior",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      "category": ["617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b","617a47f265367a3e1498562c"]
 
     },
     {
@@ -47,14 +43,12 @@
       "price": 170,
       "imageCover":
         "https://www.theskinnybeep.com/wp-content/uploads/2014/09/Runway-Costume-National-Summer-2015-Women-Collection-Milan-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M", "XLL"],
       "color": ["orange", "charcoal-grey", "white", "black"],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -64,14 +58,12 @@
       "price": 50,
       "imageCover":
         "https://www.fashionotography.com/wp-content/uploads/2020/09/Marchesa-Spring-Summer-2021-New-York-Fashion-Week-18.jpeg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
       "color": ["red", "light-gold", "cornflower"],
       "brand":  "Dior",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -81,14 +73,12 @@
       "price": 280,
       "imageCover":
         "https://socialproofimage.com/wp-content/uploads/2020/09/ETRO-WOMENS-SPRINGSUMMER-2021-6.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
       "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
       "brand": "H-M",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses"]
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a"]
 
     },
     {
@@ -98,14 +88,12 @@
       "price": 100,
       "imageCover":
         "https://tse4.mm.bing.net/th?id=OIP.n9iqJwr0jyW9Yyu_uSsD-gHaLH&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
       "color": ["red", "light-gold", "cornflower", "orange"],
       "brand": "Pull-Bear",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      "category": ["617a47f265367a3e1498562c","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -115,14 +103,13 @@
       "price": 60,
       "imageCover":
         "https://data.ibtimes.sg/en/full/21136/moschino-autumn-winter-2018-women-collection-during-milan-fashion-week-in-milan.jpg?w=1180",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 50,
-      "size": ["S", "M"],
+      "size": ["S", "M", "L"],
       "color": ["cornflower", "orange", "white", "black"],
       "brand":  "H-M",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Going out dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -132,7 +119,7 @@
       "price": 30,
       "imageCover":
         "https://tse1.mm.bing.net/th?id=OIP.yYotkzKPQLkKFWywYLOYcgHaLI&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
       "size": ["S", "M", "L", "XLL"],
       "color": [
@@ -145,9 +132,8 @@
         "black"
       ],
       "brand": "Pull-Bear",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Rompers / Jumpsuits","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985627","617a47f265367a3e1498562d","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -157,14 +143,13 @@
       "price": 200,
       "imageCover":
         "https://tse4.mm.bing.net/th?id=OIP.6p3DZeQ8dlJd1W6TZI5HQAHaL9&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 150,
       "size": ["S", "M", "L", "XLL"],
       "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -174,14 +159,13 @@
       "price": 250,
       "imageCover":
         "http://www.theskinnybeep.com/wp-content/uploads/2018/03/2018-Woman-Chanel-Trends-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 500,
       "size": ["S", "M", "L", "XLL"],
       "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
       "brand":  "H-M",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562d","617a47f265367a3e1498562c","617a47f265367a3e14985627","617a47f265367a3e14985629"]
 
     },
     {
@@ -191,14 +175,13 @@
       "price": 120,
       "imageCover":
         "https://tse2.mm.bing.net/th?id=OIP.kNLAxUndOlPff7qlsa3IYgHaK7&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 80,
-      "size": ["S", "XLL"],
+      "size": ["S", "M", "L","XLL"],
       "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
       "brand":  "Pull-Bear",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -208,14 +191,13 @@
       "price": 260,
       "imageCover":
         "http://www.theskinnybeep.com/wp-content/uploads/2015/02/Catwalk-Calvin-Klein-Fall-Winter-2015-16-Women-Collection-New-York-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 60,
-      "size": ["M", "L", "XLL"],
+      "size": ["M", "L", "S", "XLL"],
       "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
       "brand":  "Chanel",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -225,14 +207,13 @@
       "price": 160,
       "imageCover":
         "https://tse1.mm.bing.net/th?id=OIP.ejZUBJH1zWZTrpNkruDE1wHaLH&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
       "size": ["S", "M", "L"],
       "color": ["red", "light-gold", "cornflower", "orange", "black"],
       "brand": "Dior",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -242,14 +223,13 @@
       "price": 240,
       "imageCover":
         "https://tse3.mm.bing.net/th?id=OIP.lxrf0HTcjb9A3-wQJ9EvPgHaLG&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 200,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M", "XLL"],
       "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
       "brand":  "Chanel",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629"]
 
     },
     {
@@ -259,14 +239,13 @@
       "price": 170,
       "imageCover":
         "https://www.theskinnybeep.com/wp-content/uploads/2015/03/Runway-Preen-by-Thornton-Bregazzi-Fall-Winter-2015-16-Women-Collection-London-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 9,
       "size": ["S", "M", "L"],
       "color": ["light-gold", "cornflower", "orange", "charcoal-grey"],
       "brand":  "Dior",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -275,7 +254,7 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 190,
       "imageCover": "https://tse1.mm.bing.net/th?id=OIP.h7sheIpRjT4fYl8s4dyZfwHaLG&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 300,
       "size": ["S", "M", "L", "XLL"],
       "color": [
@@ -287,9 +266,8 @@
         "black"
       ],
       "brand": "Pull-Bear",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses","Party / Ocassion dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a"]
 
     },
     {
@@ -299,14 +277,13 @@
       "price": 260,
       "imageCover":
         "https://tse4.mm.bing.net/th?id=OIP.WgOOH0qBzVqvqho15OE5-wHaLI&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L","M", "XLL"],
       "color": ["red", "light-gold", "cornflower", "orange", "black"],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562c","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -316,14 +293,13 @@
       "price": 190,
       "imageCover":
         "http://www.theskinnybeep.com/wp-content/uploads/2017/04/Fashion-Woman-Model-Etro-Catwalk-17-18.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
-      "size": ["S", "M", "XLL"],
+      "size": ["S", "M", "L", "XLL"],
       "color": ["red", "orange", "charcoal-grey", "white", "black"],
       "brand": "Pull-Bear", 
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562d","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -333,7 +309,7 @@
       "price": 85,
       "imageCover":
         "https://tse3.explicit.bing.net/th?id=OIP.BDTqoP2aE-KOzp2wvEBxfwHaLI&pid=Api&P=0&w=300&h=300",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 90,
       "size": ["S", "M", "L", "XLL"],
       "color": [
@@ -346,9 +322,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Going out dresses","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -358,9 +333,9 @@
       "price": 245,
       "imageCover":
         "https://www.theskinnybeep.com/wp-content/uploads/2011/10/Dsquared2-Spring-Summer-2012-Women-Fashion-Show.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
-      "size": ["S", "XLL"],
+      "size": ["S","M", "L", "XLL"],
       "color": [
         "red",
         "light-gold",
@@ -371,9 +346,8 @@
         "black"
       ],
       "brand":  "H-M", 
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a"]
 
     },
     {
@@ -383,7 +357,7 @@
       "price": 80,
       "imageCover":
         "https://d.ibtimes.co.uk/en/full/1363308/london-fashion-week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 250,
       "size": ["S", "M", "L"],
       "color": [
@@ -396,9 +370,8 @@
         "black"
       ],
       "brand":  "Dior",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Going out dresses","Party / Ocassion dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629","617a47f265367a3e1498562a"]
 
     },
     {
@@ -407,9 +380,9 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 600,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
         "light-gold",
@@ -417,9 +390,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -428,9 +400,9 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 600,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
         "light-gold",
@@ -438,9 +410,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -449,9 +420,9 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 600,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
         "light-gold",
@@ -459,9 +430,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -470,9 +440,9 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 600,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L", "M", "XLL"],
       "color": [
         "red",
         "light-gold",
@@ -480,9 +450,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     },
     {
@@ -491,9 +460,9 @@
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
-      "images": [],
+      "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 600,
-      "size": ["S", "L", "XLL"],
+      "size": ["S", "L","M", "XLL"],
       "color": [
         "red",
         "light-gold",
@@ -501,9 +470,8 @@
         "black"
       ],
       "brand": "Zara",
-      "for": "Ladies",
-      "type": "Dresses",
-      "category": ["Casual dresses","Rompers / Jumpsuits","Party / Ocassion dresses", "Mini dresses"]
+      
+      "category": ["617a47f265367a3e1498562d","617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
     }
   ]

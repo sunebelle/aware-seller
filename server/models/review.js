@@ -4,6 +4,7 @@ import Product from "./product.js";
 
 const reviewSchema = mongoose.Schema(
   {
+    title: String,
     review: String,
     rating: {
       type: Number,
@@ -25,21 +26,21 @@ const reviewSchema = mongoose.Schema(
       ref: "User",
       required: [true, "Review must belongs to a user"],
     },
-  },
-  {
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true },
   }
+  // {
+  //   toJSON: { virtuals: true },
+  //   toObject: { virtuals: true },
+  // }
 );
 
 reviewSchema.index({ user: 1, product: 1 }, { unique: true });
 
 reviewSchema.pre(/^find/, function (next) {
- 
   this.populate({
     path: "user",
     select: "name email",
-  }).populate({ path: "product", select: "name" });
+  });
+  // .populate({ path: "product", select: "name" });
   next();
 });
 
@@ -68,7 +69,9 @@ reviewSchema.post("save", function () {
   this.constructor.calAverageRatings(this.product);
   // if (!req.body.product) req.body.product = req.params.productId;
 });
-module.exports = mongoose.model("Review", reviewSchema);
+const Review = mongoose.model("Review", reviewSchema);
+
+export default Review;
 
 //review => 01 user + 01 product ref
 //product => review virtual but exclude product field in DB

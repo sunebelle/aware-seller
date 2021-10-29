@@ -1,8 +1,13 @@
 import express from "express";
-import { getAllCategories, getAllPatterns } from "../controllers/category.js";
+import { getCategories, getSubCategories } from "../controllers/category.js";
+import productRouter from "./product.js";
 const router = express.Router();
 
-router.get("/", getAllCategories);
-router.get("/:id", getAllPatterns);
+//api/v1/categories
+
+router.use("/:categoryId/products", productRouter);
+
+router.get("/", getCategories);
+router.get("/:categoryId", getSubCategories);
 
 export default router;

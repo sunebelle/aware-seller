@@ -62,26 +62,21 @@ const productSchema = mongoose.Schema(
       required: [true, "Please provide the brand of product"],
       //Zara, H&M,Pull&Bear,Dior,Chanel
     },
-    for: {
-      type: String,
-      // men, ladies, boys, girls
-      required: [true, "A product must be used for a certain type of person"],
-    },
-    type: {
-      type: String,
-      // Tops/Bottoms/ Dresses/Jackets/Shoes/Accesories/Sale
-      required: [true, "A product must belong to a type"],
-    },
-    category: {
-      type: [String],
-      required: [true, "A product must be categorized"],
-      // "Rompers / Jumpsuits",  "Casual dresses","Going out dresses",
-      // "Party / Ocassion dresses", "Mini dresses",
-    },
+    // for: {
+    //   type: String,
+    //   // men, ladies, boys, girls
+    //   required: [true, "A product must be used for a certain type of person"],
+    // },
+    // type: {
+    //   type: String,
+    //   // Tops/Bottoms/ Dresses/Jackets/Shoes/Accesories/Sale
+    //   required: [true, "A product must belong to a type"],
+    // },
+    category: [mongoose.Schema.ObjectId],
     ratingsAverage: {
       type: Number,
-      default: 4.5,
-      min: [1, "Rating must be above 1.0"],
+      default: 0,
+      min: [0, "Rating must be above 1.0"],
       max: [5, "Rating must be below 5.0"],
       set: (val) => Math.round(val * 10) / 10, // 4.666666, 46.6666, 47, 4.7
     },
@@ -99,6 +94,8 @@ const productSchema = mongoose.Schema(
     toObject: { virtuals: true },
   }
 );
+
+// productSchema.index({ category: 1 }); => having no effect at all.
 
 //This virtual will not appear on the tour DB, but with input if it is populated
 productSchema.virtual("reviews", {

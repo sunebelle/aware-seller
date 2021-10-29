@@ -1,18 +1,19 @@
 import express from "express";
-import { getAllCategories, getAllPatterns } from "../controllers/category.js";
 import {
   getAllProducts,
   createProduct,
   getProduct,
+  getProductsBySearch,
 } from "../controllers/product.js";
+import reviewRouter from "./review.js";
 
-const router = express.Router();
-///api/v1/products
+const router = express.Router({ mergeParams: true });
+router.use("/:productId/reviews", reviewRouter);
+
+///api/v1/categories/:categoryId/products
 router.get("/", getAllProducts);
 router.post("/", createProduct);
-// router.route("/:id").get(getProduct);
-router.get("/:id", getProduct);
-// router.get("/categories", getAllCategories);
-// router.get("/categories/:id", getAllPatterns);
+router.get("/search", getProductsBySearch);
+router.get("/:productId", getProduct);
 
 export default router;

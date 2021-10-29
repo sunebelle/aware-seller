@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Ladies",
+        "parentId": null,
+        "level": 1
+        
+    },
+    {
+        "name":"Men",
+        "parentId": null,
+        "level": 1
+        
+    },
+    {
+        "name":"Girls",
+        "parentId": null,
+        "level": 1
+        
+    },
+    {
+        "name":"Boys",
+        "parentId": null,
+        "level": 1
+        
+    }
+    
+]
