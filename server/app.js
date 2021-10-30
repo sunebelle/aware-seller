@@ -29,7 +29,7 @@ app.use(express.static("public"));
 // through request header 'X-Forwarded-For' as
 // 'X-Forwarded-For: some.client.ip.address'
 // Insertion of the forward header is an option on most proxy software
-app.set("trust proxy", "https://aware-intern.web.app");
+app.set("trust proxy"); //ID address client site
 
 // Body parser, reading data from body into req.body, limit the http request size (Controls the maximum request body size. )
 app.use(express.json({ limit: "10kb" }));
