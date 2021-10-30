@@ -73,7 +73,10 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
   query = query.skip(skip).limit(limit);
 
   //Execute query
-  const products = await query.populate({ path: "category", select: "name" });
+  const products = await query.populate({
+    path: "category",
+    select: "name parentId",
+  });
 
   const totalOfProducts = await Product.countDocuments();
 
