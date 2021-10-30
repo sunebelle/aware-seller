@@ -11,7 +11,7 @@ export const setProductUserId = (req, res, next) => {
 
 export const getReviews = catchAsync(async (req, res, next) => {
   const { productId } = req.params;
-  const reviews = await Review.find({ review: productId });
+  const reviews = await Review.find({ product: productId });
   if (!reviews) {
     return new AppError("No result found", 404);
   }
@@ -35,7 +35,7 @@ export const createReview = catchAsync(async (req, res, next) => {
 
 export const getReview = catchAsync(async (req, res, next) => {
   const { reviewId } = req.params;
-  console.log(reviewId);
+  // console.log(reviewId);
 
   const review = await Review.findById(reviewId);
   if (!review) {
