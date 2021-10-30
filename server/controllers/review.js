@@ -11,7 +11,7 @@ export const setProductUserId = (req, res, next) => {
 
 export const getReviews = catchAsync(async (req, res, next) => {
   const { productId } = req.params;
-  const reviews = await Review.find({ product: productId });
+  const reviews = await Review.find({ product: productId }).sort("-createdAt");
   if (!reviews) {
     return new AppError("No result found", 404);
   }
@@ -24,9 +24,15 @@ export const getReviews = catchAsync(async (req, res, next) => {
 });
 
 export const createReview = catchAsync(async (req, res, next) => {
+  // console.log(req.body);
   //check again with FE
   const { title, review, rating, product, user } = req.body;
-  const doc = await Review.create({ title, review, rating, product, user });
+  const obj = { title, review, rating, product, user };
+  let updateField = Object.fromEntries(
+    Object.entries(obj).filter(([_, v]) => v !== "")
+  );
+  console.log(updateField);
+  const doc = await Review.create(updateField);
   res.status(201).json({
     data: doc,
     message: "Successfully create new review",
