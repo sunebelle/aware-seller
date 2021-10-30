@@ -21,7 +21,16 @@ app.use(cors({ origin: true, credentials: true }));
 app.set("view engine", "pug");
 app.use(express.static("public"));
 
-app.enable("trust proxy");
+//https://stackoverflow.com/questions/14463972/how-to-set-secure-cookie-using-heroku-node-js-express#:~:text=You%20are%20correct%20that%20Heroku%20terminates%20SSL%20before,sets%20a%20X-Forwarded-Proto%20header%20with%20the%20original%20protocol.
+//https://stackoverflow.com/questions/23413401/what-does-trust-proxy-actually-do-in-express-js-and-do-i-need-to-use-it
+// Set the ip-address of your trusted reverse proxy server such as
+// haproxy or Apache mod proxy or nginx configured as proxy or others.
+// The proxy server should insert the ip address of the remote client
+// through request header 'X-Forwarded-For' as
+// 'X-Forwarded-For: some.client.ip.address'
+// Insertion of the forward header is an option on most proxy software
+app.set("trust proxy", "https://aware-intern.web.app");
+
 // Body parser, reading data from body into req.body, limit the http request size (Controls the maximum request body size. )
 app.use(express.json({ limit: "10kb" }));
 // Read urlencoded from Form submiting with action & method specified
