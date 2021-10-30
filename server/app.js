@@ -21,6 +21,7 @@ app.use(cors({ origin: true, credentials: true }));
 app.set("view engine", "pug");
 app.use(express.static("public"));
 
+app.enable("trust proxy");
 // Body parser, reading data from body into req.body, limit the http request size (Controls the maximum request body size. )
 app.use(express.json({ limit: "10kb" }));
 // Read urlencoded from Form submiting with action & method specified
