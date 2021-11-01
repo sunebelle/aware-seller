@@ -9,7 +9,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L"],
-      "color": ["red", "light-gold", "white", "black"],
+      "color": ["red", "lightGold", "white", "black"],
       "brand": "Zara", 
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627", "617a47f265367a3e1498562b"]
     },
@@ -25,10 +25,10 @@
       "size": ["S", "M", "L", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -46,7 +46,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
       "size": ["S", "L", "M", "XLL"],
-      "color": ["orange", "charcoal-grey", "white", "black"],
+      "color": ["orange", "charcoalGrey", "white", "black"],
       "brand": "Zara",
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
@@ -61,7 +61,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["red", "light-gold", "cornflower"],
+      "color": ["red", "lightGold", "cornflower"],
       "brand":  "Dior",
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
@@ -76,7 +76,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
+      "color": ["red", "lightGold", "charcoalGrey", "white", "black"],
       "brand": "H-M",
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a"]
 
@@ -91,7 +91,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["red", "light-gold", "cornflower", "orange"],
+      "color": ["red", "lightGold", "cornflower", "orange"],
       "brand": "Pull-Bear",
       "category": ["617a47f265367a3e1498562c","617a47f265367a3e14985627","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
 
@@ -124,10 +124,10 @@
       "size": ["S", "M", "L", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -146,7 +146,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 150,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
+      "color": ["red", "lightGold", "charcoalGrey", "white", "black"],
       "brand": "Zara",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -162,7 +162,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 500,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
+      "color": ["cornflower", "orange", "charcoalGrey", "white", "black"],
       "brand":  "H-M",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562d","617a47f265367a3e1498562c","617a47f265367a3e14985627","617a47f265367a3e14985629"]
@@ -178,7 +178,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 80,
       "size": ["S", "M", "L","XLL"],
-      "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
+      "color": ["cornflower", "orange", "charcoalGrey", "white", "black"],
       "brand":  "Pull-Bear",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -186,7 +186,7 @@
     },
     {
       "name": "Calvin-Klein-Fall-Winter",
-      "code": "AX--151863",
+      "code": "AX-151863",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 260,
       "imageCover":
@@ -194,7 +194,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 60,
       "size": ["M", "L", "S", "XLL"],
-      "color": ["red", "light-gold", "charcoal-grey", "white", "black"],
+      "color": ["red", "lightGold", "charcoalGrey", "white", "black"],
       "brand":  "Chanel",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -202,7 +202,7 @@
     },
     {
       "name": "Mix Spring-Winter",
-      "code": "AX--151864",
+      "code": "AX-151864",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 160,
       "imageCover":
@@ -210,7 +210,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 0,
       "size": ["S", "M", "L"],
-      "color": ["red", "light-gold", "cornflower", "orange", "black"],
+      "color": ["red", "lightGold", "cornflower", "orange", "black"],
       "brand": "Dior",
       
       "category": ["617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -218,7 +218,7 @@
     },
     {
       "name": "Peter Spring",
-      "code": "AX--151865",
+      "code": "AX-151865",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 240,
       "imageCover":
@@ -226,7 +226,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 200,
       "size": ["S", "L", "M", "XLL"],
-      "color": ["cornflower", "orange", "charcoal-grey", "white", "black"],
+      "color": ["cornflower", "orange", "charcoalGrey", "white", "black"],
       "brand":  "Chanel",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985627","617a47f265367a3e14985629"]
@@ -234,7 +234,7 @@
     },
     {
       "name": "Thornton-Bregazzi-Fall-Winter",
-      "code": "AX--151866",
+      "code": "AX-151866",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 170,
       "imageCover":
@@ -242,7 +242,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 9,
       "size": ["S", "M", "L"],
-      "color": ["light-gold", "cornflower", "orange", "charcoal-grey"],
+      "color": ["lightGold", "cornflower", "orange", "charcoalGrey"],
       "brand":  "Dior",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -250,7 +250,7 @@
     },
     {
       "name": "Fendi Spring Summer",
-      "code": "AX--151867",
+      "code": "AX-151867",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 190,
       "imageCover": "https://tse1.mm.bing.net/th?id=OIP.h7sheIpRjT4fYl8s4dyZfwHaLG&pid=Api&P=0&w=300&h=300",
@@ -261,7 +261,7 @@
         
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -272,7 +272,7 @@
     },
     {
       "name": "Versace Spring Summer",
-      "code": "AX--151868",
+      "code": "AX-151868",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 260,
       "imageCover":
@@ -280,7 +280,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "L","M", "XLL"],
-      "color": ["red", "light-gold", "cornflower", "orange", "black"],
+      "color": ["red", "lightGold", "cornflower", "orange", "black"],
       "brand": "Zara",
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562c","617a47f265367a3e14985629","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -288,7 +288,7 @@
     },
     {
       "name": "ETRO Fall Winter",
-      "code": "AX--151869",
+      "code": "AX-151869",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 190,
       "imageCover":
@@ -296,7 +296,7 @@
       "images": ["https://tse2.mm.bing.net/th?id=OIP.RaJTFSuXmB4u6GpF_tmhggHaLH&pid=Api&P=0&w=300&h=300","https://4.bp.blogspot.com/-rgRXqER2FaY/UOf98Yo1UaI/AAAAAAAAIJ4/5DQmRrRw-pU/s1600/Cocktail-Dress-for-Party.jpg","https://tse2.mm.bing.net/th?id=OIP.VQiIfFa3qiTs1nkwNZjIoQHaKG&pid=Api&P=0&w=300&h=300","https://dressty.com/wp-content/uploads/2016/07/Plain-White-Dresses-For-Women-pur1m0mcoyr.jpg"],
       "quantity": 10,
       "size": ["S", "M", "L", "XLL"],
-      "color": ["red", "orange", "charcoal-grey", "white", "black"],
+      "color": ["red", "orange", "charcoalGrey", "white", "black"],
       "brand": "Pull-Bear", 
       
       "category": ["617a47f265367a3e14985628","617a47f265367a3e1498562d","617a47f265367a3e1498562a", "617a47f265367a3e1498562b"]
@@ -304,7 +304,7 @@
     },
     {
       "name": "N21 Spring Winter",
-      "code": "AX--161860",
+      "code": "AX-161860",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 85,
       "imageCover":
@@ -314,10 +314,10 @@
       "size": ["S", "M", "L", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -328,7 +328,7 @@
     },
     {
       "name": "Dsquared2-Spring-Summer",
-      "code": "AX--171860",
+      "code": "AX-171860",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 245,
       "imageCover":
@@ -338,10 +338,10 @@
       "size": ["S","M", "L", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -352,7 +352,7 @@
     },
     {
       "name": "Spring party dress",
-      "code": "AX--171861",
+      "code": "AX-171861",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 80,
       "imageCover":
@@ -362,10 +362,10 @@
       "size": ["S", "M", "L"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "orange",
-        "charcoal-grey",
+        "charcoalGrey",
         "white",
         "black"
       ],
@@ -376,7 +376,7 @@
     },
     {
       "name": "Front-Style-Sleeveless-Denim",
-      "code": "AX--171862",
+      "code": "AX-171862",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 270,
       "imageCover": "http://www.sex-dresses.com/wp-content/uploads/2016/04/Women-Zip-Front-Style-Sleeveless-Denim-Dress--600x900.jpg",
@@ -385,7 +385,7 @@
       "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "black"
       ],
@@ -396,7 +396,7 @@
     },
     {
       "name": "Runway-Lanvin-Fall-Winter",
-      "code": "AX--171848",
+      "code": "AX-171848",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 110,
       "imageCover": "https://www.theskinnybeep.com/wp-content/uploads/2015/06/Runway-Lanvin-Fall-Winter-2015-16-Women-Collection-Paris-Fashion-Week.jpg",
@@ -405,7 +405,7 @@
       "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "black"
       ],
@@ -416,7 +416,7 @@
     },
     {
       "name": "Green Cocktail",
-      "code": "AX--171856",
+      "code": "AX-171856",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 220,
       "imageCover": "https://tse2.mm.bing.net/th?id=OIP.knLliZIhGVjtErIx0tNNpQHaKf&pid=Api&P=0&w=300&h=300",
@@ -425,7 +425,7 @@
       "size": ["S", "L", "M","XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "black"
       ],
@@ -436,7 +436,7 @@
     },
     {
       "name": "Blue beach",
-      "code": "AX--171874",
+      "code": "AX-171874",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 190,
       "imageCover": "http://www.dressedupgirl.com/wp-content/uploads/2014/12/Beach-Dresses-Women.jpg",
@@ -445,7 +445,7 @@
       "size": ["S", "L", "M", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "black"
       ],
@@ -456,7 +456,7 @@
     },
     {
       "name": "Party Short Black",
-      "code": "AX--171894",
+      "code": "AX-171894",
       "description": ["Chest: 36”", "Length: 25.75”"],
       "price": 60,
       "imageCover": "http://feedinspiration.com/wp-content/uploads/2015/05/2012-Chinese-Style-Retro-Formal-Black-Party-Dresses-for-Women.jpg",
@@ -465,7 +465,7 @@
       "size": ["S", "L","M", "XLL"],
       "color": [
         "red",
-        "light-gold",
+        "lightGold",
         "cornflower",
         "black"
       ],

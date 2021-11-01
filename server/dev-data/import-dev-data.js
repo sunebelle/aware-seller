@@ -1,6 +1,6 @@
 import fs from "fs";
 import Product from "../models/product.js";
-// import Review from "../models/review.js";
+import Review from "../models/review.js";
 // import User from "../models/user.js";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
@@ -39,7 +39,7 @@ const deleteData = async () => {
   try {
     await Product.deleteMany();
     // await User.deleteMany();
-    // await Review.deleteMany();
+    await Review.deleteMany();
     console.log("Data successfully deleted from the DB");
   } catch (error) {
     console.log(error);

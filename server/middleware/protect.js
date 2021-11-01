@@ -14,9 +14,11 @@ export const protect = catchAsync(async (req, res, next) => {
   const auth = req.headers.authorization;
   if (auth && auth.startsWith("Bearer")) {
     token = auth.split(" ")[1];
-  } else if (req.cookies.jwt) {
-    token = req.cookies.jwt;
+    console.log(token);
   }
+  // } else if (req.cookies.jwt) {
+  //   token = req.cookies.jwt;
+  // }
   if (!token) {
     return next(new AppError("Found no token", 404));
   }

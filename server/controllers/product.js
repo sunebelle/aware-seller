@@ -96,7 +96,12 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
 export const getProduct = catchAsync(async (req, res, next) => {
   const { productId } = req.params;
 
-  const product = await Product.findById(productId).populate("reviews");
+  const product = await Product.findById(productId)
+    .populate("reviews")
+    .populate({
+      path: "category",
+      select: "name parentId",
+    });
 
   if (!product) {
     return next(new AppError("No product was found", 404));

@@ -6,8 +6,9 @@ import {
   forgotPassword,
   resetPassword,
   updatePassword,
+  updateUser,
 } from "../controllers/auth.js";
-import { getAllUsers, updateUser } from "../controllers/user.js";
+import { getAllUsers } from "../controllers/user.js";
 import { protect, restrictTo } from "../middleware/protect.js";
 const router = express.Router();
 

@@ -14,7 +14,7 @@ const signToken = (id) => {
   });
 };
 
-const createSendToken = (user, statusCode, res, message) => {
+const createSendToken = (user, statusCode, res) => {
   const token = signToken(user._id);
 
   const cookieOptions = {
@@ -36,7 +36,6 @@ const createSendToken = (user, statusCode, res, message) => {
     data: {
       user,
     },
-    message,
   });
 };
 export const register = catchAsync(async (req, res, next) => {
@@ -54,7 +53,7 @@ export const register = catchAsync(async (req, res, next) => {
     password,
     role,
   });
-  createSendToken(newUser, 201, res, "successfully create new account");
+  createSendToken(newUser, 201, res);
 });
 
 export const login = catchAsync(async (req, res, next) => {
@@ -184,4 +183,24 @@ export const updatePassword = catchAsync(async (req, res, next) => {
 
   // 4. log the user in, send JWT
   createSendToken(user, 200, res);
+});
+
+export const updateUser = catchAsync(async (req, res, next) => {
+  const { name, email } = req.body;
+  // const obj = {name: req.body.name, email: req.body.email}
+  if (req.body.password) {
+    return next(new AppError("This route is not for updating password", 400));
+  }
+  //https://stackoverflow.com/questions/286141/remove-blank-attributes-from-an-object-in-javascript
+  // let updateField = Object.fromEntries(Object.entries(obj).filter(([_, v]) => v != null));
+  const updatedUser = await User.findByIdAndUpdate(
+    req.user.id,
+    { email, name },
+    {
+      new: true,
+      runValidators: true,
+    }
+  );
+
+  createSendToken(updatedUser, 200, res);
 });

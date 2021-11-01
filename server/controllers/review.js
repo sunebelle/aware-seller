@@ -32,7 +32,10 @@ export const createReview = catchAsync(async (req, res, next) => {
     Object.entries(obj).filter(([_, v]) => v !== "")
   );
   console.log(updateField);
-  const doc = await Review.create(updateField);
+  const doc = await Review.create(updateField).populate({
+    path: "user",
+    select: "name",
+  });
   res.status(201).json({
     data: doc,
     message: "Successfully create new review",
