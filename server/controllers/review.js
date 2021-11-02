@@ -31,11 +31,14 @@ export const createReview = catchAsync(async (req, res, next) => {
   let updateField = Object.fromEntries(
     Object.entries(obj).filter(([_, v]) => v !== "")
   );
-  console.log(updateField);
-  const doc = await Review.create(updateField).populate({
+  // console.log(updateField);
+
+  let doc = await Review.create(updateField);
+  doc = await doc.populate({
     path: "user",
     select: "name",
   });
+
   res.status(201).json({
     data: doc,
     message: "Successfully create new review",

@@ -133,10 +133,7 @@ export const getProductsBySearch = catchAsync(async (req, res) => {
   });
 });
 
-export const checkout = catchAsync(async (req, res, next) => {
-  const { products } = req.body;
-  console.log(products);
-});
+
 
 // export const getProductsBySearch = catchAsync(async (req, res) => {
 //   const { searchQuery } = req.query;

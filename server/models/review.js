@@ -35,6 +35,14 @@ const reviewSchema = mongoose.Schema(
 // prevent dublicating review from a user for a product
 reviewSchema.index({ user: 1, product: 1 }, { unique: true });
 
+// reviewSchema.pre("save", function (next) {
+//   this.populate({
+//     path: "user",
+//     select: "name",
+//   });
+//   next();
+// });
+
 reviewSchema.pre(/^find/, function (next) {
   this.populate({
     path: "user",

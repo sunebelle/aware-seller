@@ -14,7 +14,6 @@ router.use("/:productId/reviews", reviewRouter);
 router.get("/", getAllProducts);
 router.post("/", createProduct);
 router.get("/search", getProductsBySearch);
-router.post("/checkout", )
 router.get("/:productId", getProduct);
 
 export default router;
