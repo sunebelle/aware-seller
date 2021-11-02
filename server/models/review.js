@@ -35,14 +35,6 @@ const reviewSchema = mongoose.Schema(
 // prevent dublicating review from a user for a product
 reviewSchema.index({ user: 1, product: 1 }, { unique: true });
 
-// reviewSchema.pre("save", function (next) {
-//   this.populate({
-//     path: "user",
-//     select: "name",
-//   });
-//   next();
-// });
-
 reviewSchema.pre(/^find/, function (next) {
   this.populate({
     path: "user",
@@ -77,6 +69,20 @@ reviewSchema.post("save", function () {
   this.constructor.calAverageRatings(this.product);
   // if (!req.body.product) req.body.product = req.params.productId;
 });
+
+// findByIdAndUpdate
+// findByIdAndDelete
+// reviewSchema.pre(/^findOneAnd/, async function(next) {
+//   this.r = await this.findOne();
+//   // console.log(this.r);
+//   next();
+// });
+
+// reviewSchema.post(/^findOneAnd/, async function() {
+//   // await this.findOne(); does NOT work here, query has already executed
+//   await this.r.constructor.calcAverageRatings(this.r.tour);
+// });
+
 const Review = mongoose.model("Review", reviewSchema);
 
 export default Review;

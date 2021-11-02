@@ -24,7 +24,10 @@ const cartSchema = mongoose.Schema({
     type: Number,
     required: true,
   },
-  discount: Number,
+  discount: {
+    type: Number,
+    default: 0,
+  },
   shippingFree: {
     type: Number,
     required: true,

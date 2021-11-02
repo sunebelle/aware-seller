@@ -19,7 +19,8 @@ const app = express();
 
 // allow cors requests from any origin and with credentials
 app.use(cors({ origin: true, credentials: true }));
-app.set("view engine", "pug");
+// app.set("view engine", "pug");
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 //https://stackoverflow.com/questions/14463972/how-to-set-secure-cookie-using-heroku-node-js-express#:~:text=You%20are%20correct%20that%20Heroku%20terminates%20SSL%20before,sets%20a%20X-Forwarded-Proto%20header%20with%20the%20original%20protocol.
