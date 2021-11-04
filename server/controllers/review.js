@@ -3,7 +3,7 @@ import Review from "../models/review.js";
 import AppError from "../utils/appError.js";
 
 export const setProductUserId = (req, res, next) => {
-  console.log(req.user);
+  // console.log(req.user);
   //allowed nested routes
   if (!req.body.product) req.body.product = req.params.productId; //productId from URL
   if (!req.body.user) req.body.user = req.user._id; //id from protect middleware, token

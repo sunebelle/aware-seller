@@ -31,7 +31,7 @@ app.use(express.static("public"));
 // through request header 'X-Forwarded-For' as
 // 'X-Forwarded-For: some.client.ip.address'
 // Insertion of the forward header is an option on most proxy software
-app.set("trust proxy"); //ID address client site
+// app.set("trust proxy"); //ID address client site
 
 // Body parser, reading data from body into req.body, limit the http request size (Controls the maximum request body size. )
 app.use(express.json({ limit: "10kb" }));
@@ -56,7 +56,7 @@ app.use(
 const limiter = rateLimit({
   // 100 requests in 15 mins
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // limit each IP to 100 requests per windowMs
+  max: 1000, // limit each IP to 1000 requests per windowMs
   message: "Too many requests from this IP, please try again in 15 mins",
 });
 app.use("/api/", limiter);

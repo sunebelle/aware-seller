@@ -15,7 +15,7 @@ const cartSchema = mongoose.Schema({
       size: String,
       color: String,
       brand: String,
-      category: [mongoose.Schema.ObjectId],
+      category: String,
       ratingsAverage: Number,
       ratingsQuantity: Number,
     },

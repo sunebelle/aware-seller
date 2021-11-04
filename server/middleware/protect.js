@@ -14,16 +14,16 @@ export const protect = catchAsync(async (req, res, next) => {
   const auth = req.headers.authorization;
   if (auth && auth.startsWith("Bearer")) {
     token = auth.split(" ")[1];
+  } else if (req.cookies.jwt) {
+    token = req.cookies.jwt;
   }
-  // } else if (req.cookies.jwt) {
-  //   token = req.cookies.jwt;
-  // }
+
+  // console.log("protect route", token);
   if (!token) {
     return next(new AppError("Found no token", 404));
   }
   // 2. validate/ verify token
   const decoded = await promisify(jwt.verify)(token, process.env.TOKEN_SECRET);
-  // console.log(decoded);
 
   if (!decoded) {
     return next(new AppError("invalid token", 400));
