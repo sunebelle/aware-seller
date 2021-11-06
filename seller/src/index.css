@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-border-white {
+    @apply border border-[#ededed] bg-[#ffff] rounded-sm flex items-center h-12 text-center;
+  }
+  .bg-border-select {
+    /* w-[780px] */
+    @apply w-full border border-[#ededed] bg-[#ffff] rounded-sm flex items-center h-12 text-center;
+  }
+  .bg-border-input {
+    @apply w-full h-12 focus:outline-none px-4 py-2.5 rounded-sm  text-[14px] leading-[1.43rem]  bg-[#ffffff] border border-[#ededed] font-medium;
+  }
+  .bg-border-textarea {
+    @apply w-full focus:outline-none px-4 pt-[14px] rounded-sm  text-[14px] leading-[1.43rem]  bg-[#ffffff] border border-[#ededed] font-medium;
+  }
+  .btn {
+    @apply w-[180px] h-12 rounded-sm text-sm font-semibold leading-[1.71rem] text-center;
+  }
+}
+
+/* text-[28px] leading-[1.29rem] */
+/*  leading-snug */
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.Montserrat-s {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #acacac;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: right;
+  color: #202124;
+  text-transform: uppercase;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+.login_bg {
+  background-image: url(/src/assets/img/login-bg.png);
+}
+.login_container {
+  width: 380px;
+  height: 424px;
+  /* opacity: 0.8; */
+  border-radius: 2px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.08);
+  background-color: rgba(61, 61, 63, 0.8);
+}
+/* .container_right {
+  flex: 5;
+}
+.container_left {
+  flex: 1;
+} */
+/* 
+display: grid;
+grid-template-columns: 35% 65%; */
+
+/* Styling table*/
+
+tr:nth-child(even) {
+  background-color: #f6f6f6;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+/* tr:nth-child(odd) {
+  background-color: #fff;
+} */
+
+/* Styling select range date - calendar */
+.rdrDateDisplayWrapper {
+  display: none;
+}
