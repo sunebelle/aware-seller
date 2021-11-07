@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import MultipleSelectChip from "../../components/Select/MultipleSelectChip";
 import Select from "../../components/Select/Select";
 import Topbar from "../../components/Topbar/Topbar";
+import { sizes, brands, colors } from "../../utils/listData";
 //https://stackoverflow.com/questions/43692479/how-to-upload-an-image-in-react-js
 //https://w3path.com/react-image-upload-or-file-upload-with-preview
 //https://codesandbox.io/s/bold-bird-6owyg
@@ -10,6 +12,15 @@ const AddProduct = () => {
   const [price, setPrice] = useState("");
   const [quantity, setQuantity] = useState("");
   const [description, setDescription] = useState("");
+  const [brand, setBrand] = useState("");
+  const [size, setSize] = useState([]);
+  const [color, setColor] = useState([]);
+  const [category, setCategory] = useState([]);
+
+  const { categories } = useSelector((state) => state.category);
+
+  const handleCancel = () => {};
+  const handleAdd = () => {};
   return (
     <div className="col-span-5 px-5  bg-[#f6f6f6]">
       <Topbar title="Products" path="Products  /  Add product" />
@@ -92,7 +103,11 @@ const AddProduct = () => {
             <h4>categories</h4>
           </div>
           <div className="col-span-4">
-            <MultipleSelectChip />
+            <MultipleSelectChip
+              listOptions={categories}
+              category={category}
+              setCategory={setCategory}
+            />
           </div>
         </div>
         {/* four grid */}
@@ -101,7 +116,7 @@ const AddProduct = () => {
             <h4>Brand</h4>
           </div>
           <div className="col-span-4">
-            <Select />
+            <Select listOptions={brands} brand={brand} setBrand={setBrand} />
           </div>
         </div>
         {/*  fifth grid */}
@@ -124,7 +139,11 @@ const AddProduct = () => {
             <h4>size</h4>
           </div>
           <div className="col-span-4">
-            <MultipleSelectChip />
+            <MultipleSelectChip
+              listOptions={sizes}
+              size={size}
+              setSize={setSize}
+            />
           </div>
         </div>
         {/* seventh grid */}
@@ -133,7 +152,11 @@ const AddProduct = () => {
             <h4>Colors</h4>
           </div>
           <div className="col-span-4">
-            <MultipleSelectChip />
+            <MultipleSelectChip
+              listOptions={colors}
+              color={color}
+              setColor={setColor}
+            />
           </div>
         </div>
         {/* eightth grid */}
@@ -168,10 +191,16 @@ const AddProduct = () => {
         <div className="grid grid-cols-6 gap-5 ">
           <div className="col-span-1 flex items-center justify-end"></div>
           <div className="col-span-4 inline-flex justify-end space-x-5">
-            <button className="Montserrat btn text-[#ffa15f] border border-[#ededed] bg-white">
+            <button
+              onClick={handleCancel}
+              className="Montserrat btn text-[#ffa15f] border border-[#ededed] bg-white"
+            >
               Cancel
             </button>
-            <button className="Montserrat btn text-white  bg-[#ffa15f]">
+            <button
+              onClick={handleAdd}
+              className="Montserrat btn text-white  bg-[#ffa15f]"
+            >
               Complete
             </button>
           </div>

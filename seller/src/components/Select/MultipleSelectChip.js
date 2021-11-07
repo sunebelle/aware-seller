@@ -1,26 +1,14 @@
 import React, { useState } from "react";
 
-const MultipleSelectChip = () => {
+const MultipleSelectChip = ({ listOptions }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState(false);
   const [selected, setSelected] = useState([]);
   const [currentSelected, setCurrentSelected] = useState("");
 
-  const listOptions = [
-    "Oliver Hansen",
-    "Van Henry",
-    "April Tucker",
-    "Ralph Hubbard",
-    "Omar Alexander",
-    "Carlos Abbott",
-    "Miriam Wagner",
-    "Bradley Wilkerson",
-    "Virginia Andrews",
-    "Kelly Snyder",
-  ];
-
   const handleSelect = (option) => {
     setSelected([...selected, option]);
     setCurrentSelected(option);
+
     // setShowDropdownMenu(false);
   };
   const handleDelete = (select) => {
@@ -53,7 +41,7 @@ const MultipleSelectChip = () => {
         />
       </div>
       {showDropdownMenu && (
-        <div className="absolute z-50 px-4 top-12 flex-col shadow-lg bg-border-select h-40 overflow-y-auto scrollbar-w-1 scrollbar-thumb-rounded-full scrollbar-thumb-gray-100">
+        <div className="absolute z-50 px-4 top-12 flex-col shadow-lg bg-border-select h-28 overflow-y-auto scrollbar-w-1 scrollbar-thumb-rounded-full scrollbar-thumb-gray-100">
           {listOptions?.map((option, i) => {
             const active = option === currentSelected;
             return (

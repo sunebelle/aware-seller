@@ -11,6 +11,8 @@
 # production
 /build
 
+*Draft.js
+*draft.js
 # misc
 .DS_Store
 .env.local

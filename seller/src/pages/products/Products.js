@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import Table from "../../components/Table/Table";
 import Topbar from "../../components/Topbar/Topbar";
+import { categoryActions } from "../../store/category";
 
 const Products = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(categoryActions.getCategories());
+  }, [dispatch]);
+
   return (
     <div className="col-span-5 px-5 pb-8 bg-[#f6f6f6]">
       <Topbar title="Products" />
