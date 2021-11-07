@@ -1,0 +1,683 @@
+[
+    {
+        "name": "Soccer Predator Freak.4 S",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 260,
+        "imageCover": "https://m.media-amazon.com/images/I/71+V28Y-xaL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "New-B (Infant/Toddler)",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 125,
+        "imageCover": "https://m.media-amazon.com/images/I/71KOfMlWa-L._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Cienta Kids Shoes",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 220,
+        "imageCover": "https://m.media-amazon.com/images/I/81sQ7-9UH2L._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+           
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856b4", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Royal Lo H&L",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 190,
+        "imageCover": "https://m.media-amazon.com/images/I/71p+9MB6MHL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Originals Flex ",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 280,
+        "imageCover": "https://m.media-amazon.com/images/I/71t3abxDxwL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Sport - City Point 405625L ",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 220,
+        "imageCover": "https://m.media-amazon.com/images/I/71d4uIIgcRL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Slip-On Hi Terrain V MTE-1",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/71Pn5dVZyzL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Markk",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 265,
+        "imageCover": "https://m.media-amazon.com/images/I/61qplYAYDPL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b4", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Rave Run",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 150,
+        "imageCover": "https://m.media-amazon.com/images/I/71ttVdiCSxL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "97477 Cienta",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/71uwUfNffWL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71xikpJni-L._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71MSg4AztHL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71bKVLJwLvL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71I27XHMWFL._AC_SR920,736_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "white",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b4","617a47f265367a3e149856b5", "617a47f265367a3e149856b3","617a47f265367a3e149856b1"]
+      },
+    {
+        "name": "Double Exposed Hooded Tee",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 30,
+        "imageCover": "https://m.media-amazon.com/images/I/61WFU5FntPL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "charcoalGrey",
+            "white"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "PTC Pigment Hooded T-shirt",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 175,
+        "imageCover": "https://m.media-amazon.com/images/I/61hYHlYcp-L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "LA 84 Long Sleeve",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 275,
+        "imageCover": "https://m.media-amazon.com/images/I/51WF4CPZGML._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Rotation Short Sleeve",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 120,
+        "imageCover": "https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "orange",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Laugh Canister Tee",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 230,
+        "imageCover": "https://m.media-amazon.com/images/I/61kp3VXtCTL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "You Got A Friend In Me Tee",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/71N-BCjrEXL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Drop Shadow Long Sleeve",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/51Qftlv7qoL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Circle Crest Short Sleeve Tee",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 90,
+        "imageCover": "https://m.media-amazon.com/images/I/61dX5X+VVKL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Big RVCA Short Sleeve",
+        "description": ["Chest: 20”", "Length: 25.75”"],
+        "price": 40,
+        "imageCover": "https://m.media-amazon.com/images/I/61tkc+0DIGL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/41PhFssw05L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61PbheimsIL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81u4ZmFuEOL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71kDdtwtF4L._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856a0","617a47f265367a3e149856a2","617a47f265367a3e149856a5","617a47f265367a3e149856a4","617a47f265367a3e149856a1"]
+      },
+    {
+        "name": "Reversible Mount Chimbo",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 280,
+        "imageCover": "https://m.media-amazon.com/images/I/6162burlsKL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey"
+            
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856af","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Moondoggy Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 185,
+        "imageCover": "https://m.media-amazon.com/images/I/61bfHgEaulL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+           
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856af","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Freestyle Fleece Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 275,
+        "imageCover": "https://m.media-amazon.com/images/I/51ExLf+1hmL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Thermoball Eco Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 220,
+        "imageCover": "https://m.media-amazon.com/images/I/71JMyycXjrS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856af","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Moondoggy Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price":60,
+        "imageCover": "https://m.media-amazon.com/images/I/71SdELDNEvL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Resolve Reflective",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/61EmJIIXz+L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856af","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "'95 Retro Denali Jacket",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 230,
+        "imageCover": "https://m.media-amazon.com/images/I/71jcvfp5GuS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+           
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856af","617a47f265367a3e149856ab","617a47f265367a3e149856ac"]
+      },
+    {
+        "name": "Glacier Full Zip Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 75,
+        "imageCover": "https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR1104,1380_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856af","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "Thermoball Eco Hoodie",
+        "description": ["Chest: 18.25", "Length: 26”"],
+        "price": 270,
+        "imageCover": "https://m.media-amazon.com/images/I/6175XAme3CL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61WKNVjUQSS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WwhGEz-cS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/616Hp-AeJZS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61Z5kamSqrS._AC_SR1104,1380_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+           
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856b0","617a47f265367a3e149856ab","617a47f265367a3e149856ac","617a47f265367a3e149856ad"]
+      },
+    {
+        "name": "RVCA Twill Snapback",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 140,
+        "imageCover": "https://m.media-amazon.com/images/I/81MndeOpqAL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/813r62Zzb+L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WHdDbpavL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81v-ph+oIaL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81W+G2o7msL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b8"]
+      },
+    {
+        "name": "Foam Grillson",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 240,
+        "imageCover": "https://m.media-amazon.com/images/I/81M9vp6Dm2L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/813r62Zzb+L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WHdDbpavL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81v-ph+oIaL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81W+G2o7msL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Zara", 
+        "category": ["617a47f265367a3e149856b8"]
+      },
+    {
+        "name": "Foam Grillson B",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 40,
+        "imageCover": "https://m.media-amazon.com/images/I/81Rndiqy7JL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/813r62Zzb+L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WHdDbpavL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81v-ph+oIaL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81W+G2o7msL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856b8"]
+      },
+    {
+        "name": "Sea Bags",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 260,
+        "imageCover": "https://m.media-amazon.com/images/I/81S-OWIpHfL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/813r62Zzb+L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/71WHdDbpavL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81v-ph+oIaL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81W+G2o7msL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b8"]
+      },
+    {
+        "name": " Original Book Pack II",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 180,
+        "imageCover": "https://m.media-amazon.com/images/I/71LaJdXZS-L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91UYi9OLuFL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91yKwOeN1VL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91DBcdwsKcL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91G7eHMlvhL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "black"
+          ],
+        "brand":  "Pull-Bear", 
+        "category": ["617a47f265367a3e149856b6"]
+      },
+    {
+        "name": "Recycled Gift Bags",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 260,
+        "imageCover": "https://m.media-amazon.com/images/I/81MXzGB+tBL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91UYi9OLuFL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91yKwOeN1VL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91DBcdwsKcL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91G7eHMlvhL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "white",
+            "black"
+          ],
+        "brand":  "Dior", 
+        "category": ["617a47f265367a3e149856b6"]
+      },
+    {
+        "name": "Book Pack III Print",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 80,
+        "imageCover": "https://m.media-amazon.com/images/I/813tiepdbKL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91UYi9OLuFL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91yKwOeN1VL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91DBcdwsKcL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91G7eHMlvhL._AC_SR736,920_.jpg"],
+        "quantity": 600,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "H-M", 
+        "category": ["617a47f265367a3e149856b6"]
+      },
+    {
+        "name": "Gromlet 15L Backpack",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/81St96ctH8L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91UYi9OLuFL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91yKwOeN1VL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91DBcdwsKcL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91G7eHMlvhL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand":  "Channel", 
+        "category": ["617a47f265367a3e149856b6"]
+      }
+]

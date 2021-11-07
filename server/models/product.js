@@ -9,7 +9,7 @@ const productSchema = mongoose.Schema(
     },
     code: {
       type: String,
-      unique: true,
+      // unique: true,
       default: `AZ-${Math.random().toString().substring(2, 8)}`,
     },
     description: [String], //height.. made in...

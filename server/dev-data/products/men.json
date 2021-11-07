@@ -1,0 +1,755 @@
+[
+    {
+        "name": "Chef Works",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 250,
+        "imageCover": "https://m.media-amazon.com/images/I/718qIMnOXJL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e1498564b", "617a47f265367a3e1498564d","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+      },
+    {
+        "name": "Long Sleeve Shirt",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/61P5-YgQcZS._AC_SR1104,1380_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e1498564b", "617a47f265367a3e1498564d","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": "Vans Classic Tee",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 90,
+        "imageCover": "https://m.media-amazon.com/images/I/81qF5h82N9L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey"
+           
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e1498564b", "617a47f265367a3e1498564d","617a47f265367a3e1498564a"]
+      },
+    {
+        "name": " Tech Short Sleeve Tee",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/81NOth7eY+S._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e1498564b","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": "Wicking 3-Pack Crews",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 270,
+        "imageCover": "https://m.media-amazon.com/images/I/71buhJaoZYL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e1498564c", "617a47f265367a3e1498564d","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": "Under Armour Golf",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 240,
+        "imageCover": "https://m.media-amazon.com/images/I/812VmtLn4fL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+          
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e1498564b", "617a47f265367a3e1498564c","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": " Tech Short Sleeve Tee",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 165,
+        "imageCover": "https://m.media-amazon.com/images/I/711dqQt58ZL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey"
+            
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e1498564c", "617a47f265367a3e1498564d","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": " Tech Short Sleeve Tee",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 145,
+        "imageCover": "https://m.media-amazon.com/images/I/910xp2fZkCL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e1498564c", "617a47f265367a3e1498564d","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": "UA Tech Short Sleeve ABC",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/71RLS6srayS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "white",
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e1498564c", "617a47f265367a3e1498564d", "617a47f265367a3e1498564f"]
+
+      },
+    {
+        "name": "Classics Multipack Short Sleeve",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 130,
+        "imageCover": "https://m.media-amazon.com/images/I/71j30QA3CvL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/91K4coUfddL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81d4aOGXGRL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91WV3lu353L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81-64xVgBoL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e1498564c", "617a47f265367a3e1498564d","617a47f265367a3e1498564a","617a47f265367a3e14985650", "617a47f265367a3e1498564f"]
+      },
+    {
+        "name": "541 Athletic Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 180,
+        "imageCover": "https://m.media-amazon.com/images/I/81DSnd5eC-L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "541 Athletic Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 280,
+        "imageCover": "https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "541 Athletic Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 80,
+        "imageCover": "https://m.media-amazon.com/images/I/81PDYOvUPkL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "541 Athletic Fit Levis",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 120,
+        "imageCover": "https://m.media-amazon.com/images/I/71USc3M+dqL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e14985654","617a47f265367a3e14985654","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "541 Athletic Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 220,
+        "imageCover": "https://m.media-amazon.com/images/I/915JOY1Mp+L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "50™ Relaxed Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/91NH7igGw4L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "white",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e14985656","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "550™ Relaxed Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 250,
+        "imageCover": "https://m.media-amazon.com/images/I/81QtAcx90KL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985656","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "569® Loose Straight Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/814PIMxcnVL._AC_SR1104,1380_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985652","617a47f265367a3e14985655","617a47f265367a3e14985656"]
+      },
+    {
+        "name": "550™ Relaxed Fit Levis",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 180,
+        "imageCover": "https://m.media-amazon.com/images/I/91MenVpP5vL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91tevG-CEHS._AC_SR1104,1380_.jpg","https://m.media-amazon.com/images/I/A1CXdpOFVnL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e14985651","617a47f265367a3e14985653","617a47f265367a3e14985656","617a47f265367a3e14985655","617a47f265367a3e14985657"]
+      },
+    {
+        "name": "Blizzard™ XT",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/71yAApmLURL._AC_SR1380,1104_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Chelsea Waterproof",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 75,
+        "imageCover": "https://m.media-amazon.com/images/I/81bxFBEdI5L._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Kezar™ Chukka Waterproof",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 275,
+        "imageCover": "https://m.media-amazon.com/images/I/71aP+zmersL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Chukka Waterproof",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 175,
+        "imageCover": "https://m.media-amazon.com/images/I/71NYwvvDSEL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "1964 Pac T",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 235,
+        "imageCover": "https://m.media-amazon.com/images/I/71jVkK7CqoL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Bear™ XT",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 125,
+        "imageCover": "https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+           
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e14985664","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Zoom Pulse",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 190,
+        "imageCover": "https://m.media-amazon.com/images/I/71h+4nd1XML._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+           
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985664","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Kezar™ Moc Waterproof",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 40,
+        "imageCover": "https://m.media-amazon.com/images/I/71FYhiNIluL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985664","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Phantom GT Academy Flyease FG/MG",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 130,
+        "imageCover": "https://m.media-amazon.com/images/I/71CnyKyNaHL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Caribou™ OTM Chukka Waterproof",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 285,
+        "imageCover": "https://m.media-amazon.com/images/I/81wYZrLoIUL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985664"]
+      },
+    {
+        "name": "Dame 7 Extended Play Basketball ",
+        "description": ["Width: 45”", "height: 25.75”"],
+        "price": 270,
+        "imageCover": "https://m.media-amazon.com/images/I/71t-Oq0351S._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81jzpF-L1nL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71T0bED0LVL._AC_SR1380,1104_.jpg","https://m.media-amazon.com/images/I/71BGTgY+6OL._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/716d+FrVBoL._AC_SR920,736_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e1498565f","617a47f265367a3e14985661","617a47f265367a3e14985660","617a47f265367a3e14985663","617a47f265367a3e14985665"]
+      },
+    {
+        "name": "Holbrook",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 180,
+        "imageCover": "https://m.media-amazon.com/images/I/61OCY6saaGL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "white",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e14985668"]
+      },
+    {
+        "name": "Turbine",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 230,
+        "imageCover": "https://m.media-amazon.com/images/I/71jyn5JzEbL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e14985668"]
+      },
+    {
+        "name": "Double Stitched Edge Reversible ",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/71-ZwXR1bzL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e14985669"]
+      },
+    {
+        "name": "Soft Tubular Dress",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 80,
+        "imageCover": "https://m.media-amazon.com/images/I/71WArEEDQYL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "white",
+            "black"
+          ],
+        "brand": "Zara", 
+        "category": ["617a47f265367a3e14985669"]
+
+      },
+    {
+        "name": "Kid’s Pom Hat",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 120,
+        "imageCover": "https://m.media-amazon.com/images/I/81KHvmSQgVL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white"
+            
+          ],
+        "brand": "Dior", 
+        "category": ["617a47f265367a3e14985667"]
+      },
+    {
+        "name": "Salty Dog Beanie",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 230,
+        "imageCover": "https://m.media-amazon.com/images/I/81X0n6IZLWL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e14985667"]
+      },
+    {
+        "name": "Satin Solid Tie Set",
+        "description": ["height: 15”", "Length: 25.75”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/61lPG3iPfsL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61+gvtJmEyL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61OqkHACOoL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61GAx7-+lwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/61hVRMOjPcL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e1498566b"]
+      },
+    {
+        "name": "541 Athletic Fit",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 30,
+        "imageCover": "https://m.media-amazon.com/images/I/91iwrr7Lm3L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81DSnd5eC-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81DMfEoKYKL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81HyBFooSNL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81iStd8UYBL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "Channel", 
+        "category": ["617a47f265367a3e14985670"]
+      },
+    {
+        "name": "541 Athletic Fit Z",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 30,
+        "imageCover": "https://m.media-amazon.com/images/I/91SmpHFqGSL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81DSnd5eC-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81DMfEoKYKL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81HyBFooSNL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81iStd8UYBL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "orange",
+            "charcoalGrey",
+            "white",
+            "black"
+          ],
+        "brand": "H-M", 
+        "category": ["617a47f265367a3e14985670"]
+      },
+    {
+        "name": "541 Athletic Fit B",
+        "description": ["Chest: 45”", "Length: 25.75”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/81mCL7PSQrS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/81DSnd5eC-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81DMfEoKYKL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81HyBFooSNL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81iStd8UYBL._AC_SR736,920_.jpg"],
+        "quantity": 300,
+        "size": ["S", "M", "L"],
+        "color": [
+            "red",
+            "lightGold",
+            "cornflower",
+            "orange",
+            "black"
+          ],
+        "brand": "Pull-Bear", 
+        "category": ["617a47f265367a3e14985670"]
+      }
+]

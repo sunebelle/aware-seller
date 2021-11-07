@@ -1,0 +1,696 @@
+[
+    {
+        "name": "Wrap Tie Front Long Sleeve",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 240,
+        "imageCover": "https://m.media-amazon.com/images/I/91hxCAobdyL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Smocked Tiered Long Sleeve",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 280,
+        "imageCover": "https://m.media-amazon.com/images/I/51OZLHzVvOL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Wrap Velour",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 140,
+        "imageCover": "https://m.media-amazon.com/images/I/71FnHdNgLCL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e14985684","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Puff Sleeve Smocking",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 90,
+        "imageCover": "https://m.media-amazon.com/images/I/61TiEu17IRL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+         
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Tommy Hilfiger Girls' Ruffled Sleeveless",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 190,
+        "imageCover": "https://m.media-amazon.com/images/I/71PXS-PApNL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "School Uniform Short Sleeve Polo",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/71JlvgCfUlL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Sleeveless Garden Dress",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 40,
+        "imageCover": "https://m.media-amazon.com/images/I/81cU78ObcfL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Twill Safari Shirtdress",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 120,
+        "imageCover": "https://m.media-amazon.com/images/I/71uGINDXMBS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Ella Long Sleeve",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/71Xfnmed9UL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Melani",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 150,
+        "imageCover": "https://m.media-amazon.com/images/I/71D6B5cTgBL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71HZ9B--VwL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81NY7EEgePL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81srS-ONifL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91JM8DM5+ZL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985685","617a47f265367a3e14985684","617a47f265367a3e14985687", "617a47f265367a3e14985686", "617a47f265367a3e14985683", "617a47f265367a3e14985682","617a47f265367a3e14985681"]
+      },
+    {
+        "name": "Maxima",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price":200,
+        "imageCover": "https://m.media-amazon.com/images/I/719d7CBllmS._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985694","617a47f265367a3e14985695","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "95887 Cienta",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price":260,
+        "imageCover": "https://m.media-amazon.com/images/I/81sQ7-9UH2L._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+         
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Royal Lo H&L",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price":120,
+        "imageCover": "https://m.media-amazon.com/images/I/71p+9MB6MHL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985694"]
+      },
+    {
+        "name": "Originals Flex",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price": 60,
+        "imageCover": "https://m.media-amazon.com/images/I/71t3abxDxwL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+         
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "New-B",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price": 160,
+        "imageCover": "https://m.media-amazon.com/images/I/71cfrxe34ZL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e14985694","617a47f265367a3e14985695","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Miss Bowery ",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price": 73,
+        "imageCover": "https://m.media-amazon.com/images/I/71sVevghlSL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+         
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e14985694","617a47f265367a3e14985695","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Jreggie",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price":250,
+        "imageCover": "https://m.media-amazon.com/images/I/81HI1QUJp3L._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985694","617a47f265367a3e14985695","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Slip-On Hi Terrain V MTE-1",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price": 220,
+        "imageCover": "https://m.media-amazon.com/images/I/71krMTA-VnL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985695","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Treggie  Steve",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price": 65,
+        "imageCover": "https://m.media-amazon.com/images/I/818Tt+Z-zZL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985694","617a47f265367a3e14985692","617a47f265367a3e14985691"]
+      },
+    {
+        "name": "Rave Run",
+        "description": ["height: 20”", "Length: 20.25”"],
+        "price":270,
+        "imageCover": "https://m.media-amazon.com/images/I/71shQjE18mL._AC_SR920,736_.jpg",
+        "images":["https://m.media-amazon.com/images/I/71pqw-y8e7S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/614hycb-d5S._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71-K4epO3OS._AC_SR920,736_.jpg","https://m.media-amazon.com/images/I/71YHAdsIwWS._AC_SR920,736_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e1498568f","617a47f265367a3e14985694","617a47f265367a3e14985695","617a47f265367a3e14985692"]
+      },
+    {
+        "name": "iPhone® 12 Pro Max",
+        "price": 75,
+        "imageCover": "https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/51FfrpV01yL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/614eYgGGB-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/41zk98kcIwL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e1498569c"]
+      },
+    {
+        "name": "Tonal Spade Flower Phone Case",
+        "price": 175,
+        "imageCover": "https://m.media-amazon.com/images/I/61TVzft59hL._AC_SR480,600_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/51FfrpV01yL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/614eYgGGB-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/41zk98kcIwL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e1498569c"]
+      },
+    {
+        "name": "iPhone 11 Pro Case",
+        "price": 275,
+        "imageCover": "https://m.media-amazon.com/images/I/71zgxB6mNwL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/51FfrpV01yL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/614eYgGGB-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/41zk98kcIwL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e1498569c"]
+      },
+    {
+        "name": "iPhone 11 Pro Case",
+        "price": 255,
+        "imageCover": "https://m.media-amazon.com/images/I/71Nt+mvTxxL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/51FfrpV01yL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/614eYgGGB-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/41zk98kcIwL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e1498569c"]
+      },
+    {
+        "name": "iPhone 11 Pro Case B",
+        "price": 45,
+        "imageCover": "https://m.media-amazon.com/images/I/51awATEc+HL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/61MhNGR6y4L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/51FfrpV01yL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/614eYgGGB-L._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/41zk98kcIwL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e1498569c"]
+      },
+    {
+        "name": "Logo Cotton Jersey Tee",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 200,
+        "imageCover": "https://m.media-amazon.com/images/I/61o7rlFngmL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Adicolor Tee",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 20,
+        "imageCover": "https://m.media-amazon.com/images/I/51qZXj56itL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+         
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Jessica Tunic T-Shirt ",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 240,
+        "imageCover": "https://m.media-amazon.com/images/I/61VV9ONUT8L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          
+          "white",
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Tropical Vibes T-Shirt",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 150,
+        "imageCover": "https://m.media-amazon.com/images/I/618Kk98UdXL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Pull-Bear",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Van and Surf T-Shirt ",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 290,
+        "imageCover": "https://m.media-amazon.com/images/I/61MkdxEf5QL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 0,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "SS Tia Tie Front T-Shirt",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 130,
+        "imageCover": "https://m.media-amazon.com/images/I/61Rq6r7aWSL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676"]
+      },
+    {
+        "name": "Be Kind Tie Back Tee",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 270,
+        "imageCover": "https://m.media-amazon.com/images/I/817szg+gD8S._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          
+          "black"
+        ],
+        "brand": "Dior",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Cross Logo T-Shirt",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 80,
+        "imageCover": "https://m.media-amazon.com/images/I/41tcK8z-doL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+         
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Zara",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Bali Dreams T-Shirt",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 180,
+        "imageCover": "https://m.media-amazon.com/images/I/51Jv3D4KCAL._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Rainbows Graphic Tee",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 200,
+        "imageCover": "https://m.media-amazon.com/images/I/81ivfA0WICS._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "Channel",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      },
+    {
+        "name": "Butterfly",
+        "description": ["Chest: 36”", "Length: 25.75”"],
+        "price": 50,
+        "imageCover": "https://m.media-amazon.com/images/I/61+Xgx7pL3L._AC_SR736,920_.jpg",
+        "images":["https://m.media-amazon.com/images/I/51GidIEL3mL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/91QSQoVX0IL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81ns7MNi5SL._AC_SR736,920_.jpg","https://m.media-amazon.com/images/I/81bqddbzviL._AC_SR736,920_.jpg"],
+        "quantity": 1000,
+        "size": ["S", "M", "L"],
+        "color": [
+          "red",
+          "lightGold",
+          "cornflower",
+          "orange",
+          "charcoalGrey",
+          "white",
+          "black"
+        ],
+        "brand": "H-M",
+        "category": ["617a47f265367a3e14985674","617a47f265367a3e14985675","617a47f265367a3e14985678","617a47f265367a3e14985676","617a47f265367a3e14985673","617a47f265367a3e14985677"]
+      }
+    
+]

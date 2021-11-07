@@ -1,14 +1,44 @@
 [
     {
-        "name": "",
-        "email":"",
-        "password":"",
+        "name": "admin",
+        "email":"admin@123.com",
+        "password":"1234567",
         "role": "admin"
     },
     {
-        "name": "",
-        "email":"",
-        "password":"",
-        "role": "user"
+        "name": "test",
+        "email":"test@123.com",
+        "password":"1234567"
+    },
+    {
+        "name": "test 1",
+        "email":"test1@123.com",
+        "password":"1234567"
+    },
+    {
+        "name": "test 2",
+        "email":"test2@123.com",
+        "password":"1234567"
+    },
+    {
+        "name": "test 3",
+        "email":"test3@123.com",
+        "password":"1234567"
+    },
+    {
+        "name": "test 123",
+        "email":"test123@123.com",
+        "password":"1234567"
+    },
+    {
+        "name": "Sunebelle",
+        "email":"nguyenbinh2896@gmail.com",
+        "password":"1234567"
+    },
+    {
+        "name": "Binh Nguyen",
+        "email":"test12@123.com",
+        "password":"1234567"
     }
+        
 ]
