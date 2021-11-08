@@ -13,8 +13,9 @@ import Setting from "./pages/setting/Setting";
 
 const App = () => {
   const { user } = useSelector((state) => state.auth);
+  // console.log(user?.data.user.role);
 
-  if (!user) {
+  if (user?.data.user.role !== "admin") {
     return (
       <Switch>
         <Route path="/">

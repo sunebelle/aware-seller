@@ -2,7 +2,7 @@ import React from "react";
 
 const Topbar = ({ title, path }) => {
   return (
-    <div className="h-[104px]  relative flex justify-between items-center">
+    <div className="h-[104px] relative flex justify-between items-center">
       <h1 className="Montserrat font-bold text-[28px] text-[#202124] leading-[1.29rem]">
         {title}
       </h1>

@@ -1,12 +1,14 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllCategories, getAllSubCategories } from "../../actions/category";
+import { createProduct } from "../../actions/product";
 import MultipleSelectChip from "../../components/Select/MultipleSelectChip";
+import MultipleSelectObj from "../../components/Select/MultipleSelectObj";
 import Select from "../../components/Select/Select";
 import Topbar from "../../components/Topbar/Topbar";
+import Upload from "../../components/UploadImg/Upload";
 import { sizes, brands, colors } from "../../utils/listData";
-//https://stackoverflow.com/questions/43692479/how-to-upload-an-image-in-react-js
-//https://w3path.com/react-image-upload-or-file-upload-with-preview
-//https://codesandbox.io/s/bold-bird-6owyg
+
 const AddProduct = () => {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
@@ -15,67 +17,83 @@ const AddProduct = () => {
   const [brand, setBrand] = useState("");
   const [size, setSize] = useState([]);
   const [color, setColor] = useState([]);
-  const [category, setCategory] = useState([]);
+  const [category, setCategory] = useState([]); //Ladies/Dress => mini dress id
+  const [img1, setImg1] = useState("");
+  const [img2, setImg2] = useState("");
+  const [img3, setImg3] = useState("");
+  const [img4, setImg4] = useState("");
+  const [files, setFiles] = useState([]);
+  const dispatch = useDispatch();
 
-  const { categories } = useSelector((state) => state.category);
+  const { categories, subCategories } = useSelector((state) => state.category);
 
-  const handleCancel = () => {};
-  const handleAdd = () => {};
+  useEffect(() => {
+    dispatch(getAllCategories());
+  }, [dispatch]);
+
+  useEffect(() => {
+    if (categories.length > 0) {
+      const dressCategory = categories[0].categories.find(
+        (category) => category.name === "Dresses"
+      );
+      const dressCategoryId = dressCategory._id;
+      dispatch(getAllSubCategories(dressCategoryId));
+    }
+  }, [categories, dispatch]);
+  // console.log(subCategories);
+
+  useEffect(() => {
+    setFiles((files) => [...files, img2, img3, img4]);
+  }, [img2, img3, img4]);
+
+  const clearState = () => {
+    setName("");
+    setPrice("");
+    setQuantity("");
+    setDescription("");
+    setBrand("");
+    setColor([]);
+    setSize([]);
+    setCategory([]);
+    setImg1("");
+    setImg2("");
+    setImg3("");
+    setImg4("");
+  };
+  const handleCancel = () => {
+    clearState();
+  };
+  const handleAdd = (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("description", description);
+    formData.append("price", price);
+    formData.append("imageCover", img1);
+    formData.append("images", files);
+    formData.append("quantity", quantity);
+    formData.append("size", size);
+    formData.append("color", color);
+    formData.append("brand", brand);
+    formData.append("category", category);
+    dispatch(createProduct(formData));
+    clearState();
+  };
+
   return (
     <div className="col-span-5 px-5  bg-[#f6f6f6]">
       <Topbar title="Products" path="Products  /  Add product" />
-      <div className="mt-[60px] pb-[74px]">
+      <form onSubmit={handleAdd} className="mt-[60px] pb-[74px]">
         {/* first grid - upload images */}
         <div className="grid grid-cols-6 gap-5">
           <div className="col-span-1 flex items-center justify-end h-[270px]">
             <h4>photos</h4>
           </div>
-          <div className="col-span-4 inline-flex flex-wrap gap-5 w-full">
-            {/* single image */}
-            <div className=" relative w-[180px] h-[270px] border border-[#ededed] bg-[#ffffff] flex flex-col items-center justify-center">
-              {/* <img  className="w-[180px] h-[270px]" src=""  alt="product"/> */}
-              <img className="w-6 h-6" src="/img/add.svg" alt="add" />
-              <span className="mt-2 Montserrat text-[#acacac] text-xs font-medium leading-[1.83rem]">
-                Add photo
-              </span>
-              <div className="absolute top-2 right-2 ">
-                <img
-                  className="w-6 h-6 "
-                  src="/img/close-1.svg"
-                  alt="close 1"
-                />
-              </div>
-            </div>
-            {/* single image */}
-            <div className=" relative w-[180px] h-[270px] border border-[#ededed] bg-[#ffffff] flex flex-col items-center justify-center">
-              {/* <img  className="w-[180px] h-[270px]" src=""  alt="product"/> */}
-              <img className="w-6 h-6" src="/img/add.svg" alt="add" />
-              <span className="mt-2 Montserrat text-[#acacac] text-xs font-medium leading-[1.83rem]">
-                Add photo
-              </span>
-              <div className="absolute top-2 right-2 ">
-                <img
-                  className="w-6 h-6 "
-                  src="/img/close-1.svg"
-                  alt="close 1"
-                />
-              </div>
-            </div>
-            {/* single image */}
-            <div className=" relative w-[180px] h-[270px] border border-[#ededed] bg-[#ffffff] flex flex-col items-center justify-center">
-              {/* <img  className="w-[180px] h-[270px]" src=""  alt="product"/> */}
-              <img className="w-6 h-6" src="/img/add.svg" alt="add" />
-              <span className="mt-2 Montserrat text-[#acacac] text-xs font-medium leading-[1.83rem]">
-                Add photo
-              </span>
-              <div className="absolute top-2 right-2 ">
-                <img
-                  className="w-6 h-6 "
-                  src="/img/close-1.svg"
-                  alt="close 1"
-                />
-              </div>
-            </div>
+          <div className="col-span-4 inline-flex justify-between flex-wrap gap-5 w-full">
+            <Upload setImg={setImg1} img={img1} />
+            <Upload setImg={setImg2} img={img2} />
+            <Upload setImg={setImg3} img={img3} />
+            <Upload setImg={setImg4} img={img4} />
 
             <p className="Montserrat text-sm mb-10 font-medium leading-[1.43rem] text-[#acacac] ">
               You can add up to 8 photos. The 1st photo will be set as cover
@@ -103,10 +121,10 @@ const AddProduct = () => {
             <h4>categories</h4>
           </div>
           <div className="col-span-4">
-            <MultipleSelectChip
-              listOptions={categories}
-              category={category}
-              setCategory={setCategory}
+            <MultipleSelectObj
+              listOptions={subCategories}
+              selected={category}
+              setSelected={setCategory}
             />
           </div>
         </div>
@@ -141,8 +159,8 @@ const AddProduct = () => {
           <div className="col-span-4">
             <MultipleSelectChip
               listOptions={sizes}
-              size={size}
-              setSize={setSize}
+              selected={size}
+              setSelected={setSize}
             />
           </div>
         </div>
@@ -154,8 +172,8 @@ const AddProduct = () => {
           <div className="col-span-4">
             <MultipleSelectChip
               listOptions={colors}
-              color={color}
-              setColor={setColor}
+              selected={color}
+              setSelected={setColor}
             />
           </div>
         </div>
@@ -193,19 +211,20 @@ const AddProduct = () => {
           <div className="col-span-4 inline-flex justify-end space-x-5">
             <button
               onClick={handleCancel}
+              type="button"
               className="Montserrat btn text-[#ffa15f] border border-[#ededed] bg-white"
             >
               Cancel
             </button>
             <button
-              onClick={handleAdd}
+              type="submit"
               className="Montserrat btn text-white  bg-[#ffa15f]"
             >
               Complete
             </button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

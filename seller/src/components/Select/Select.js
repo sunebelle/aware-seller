@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const Select = ({ listOptions, setBrand }) => {
+const Select = ({ listOptions, setBrand, brand }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState(false);
   const [selected, setSelected] = useState("");
+
+  useEffect(() => {
+    if (brand === "") {
+      setSelected("");
+    }
+  }, [brand]);
 
   const handleSelect = (option) => {
     setSelected(option);

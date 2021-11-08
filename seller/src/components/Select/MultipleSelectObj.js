@@ -1,20 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const MultipleSelectChip = ({ listOptions, setSelected, selected }) => {
+const MultipleSelectObj = ({ listOptions, setSelected, selected }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState(false);
-  // const [selected, setSelected] = useState([]);
-  const [currentSelected, setCurrentSelected] = useState("");
+  const [selectedObj, setSelectedObj] = useState([]);
+  const [currentSelected, setCurrentSelected] = useState(""); //for styling on click only
+
+  useEffect(() => {
+    if (selected.length === 0) {
+      setSelectedObj([]);
+    }
+  }, [selected]);
 
   const handleSelect = (option) => {
-    setCurrentSelected(option);
-    if (selected.includes(option)) {
+    setCurrentSelected(option.name);
+    if (selectedObj.includes(option)) {
       return;
     }
-    setSelected([...selected, option]);
+    setSelectedObj([...selectedObj, option]);
+    setSelected([...selected, option._id]);
+
     // setShowDropdownMenu(false);
   };
-  const handleDelete = (select) => {
-    setSelected(selected.filter((item) => item !== select));
+  const handleDelete = (selectedId) => {
+    setSelected(selected.filter((id) => id !== selectedId));
+    setSelectedObj(selectedObj.filter((item) => item._id !== selectedId));
   };
   return (
     <div className="relative">
@@ -23,14 +32,14 @@ const MultipleSelectChip = ({ listOptions, setSelected, selected }) => {
         className=" bg-border-select cursor-pointer justify-between pl-2 pr-3 "
       >
         <div className="inline-flex w-full overflow-x-auto scrollbar-w-1 scrollbar-thumb-rounded-full scrollbar-thumb-gray-100 ">
-          {selected?.map((select, i) => (
+          {selectedObj?.map((select) => (
             <div
-              key={i}
+              key={select._id}
               className="flex items-center h-8 bg-[#f6f6f6] rounded px-2 space-x-2 justify-between mr-2"
             >
-              <h2>{select} </h2>
+              <h2>{select.name} </h2>
               <img
-                onClick={() => handleDelete(select)}
+                onClick={() => handleDelete(select._id)}
                 className="w-4 h-4"
                 src="/img/close-2.svg"
                 alt="close"
@@ -47,11 +56,11 @@ const MultipleSelectChip = ({ listOptions, setSelected, selected }) => {
       </div>
       {showDropdownMenu && (
         <div className="absolute z-50 px-4 top-12 flex-col shadow-lg bg-border-select h-28 overflow-y-auto scrollbar-w-1 scrollbar-thumb-rounded-full scrollbar-thumb-gray-100">
-          {listOptions?.map((option, i) => {
-            const active = option === currentSelected;
+          {listOptions?.map((option) => {
+            const active = option.name === currentSelected;
             return (
               <div
-                key={i}
+                key={option._id}
                 className="w-full"
                 onClick={() => handleSelect(option)}
                 onMouseLeave={() => setShowDropdownMenu(false)}
@@ -62,7 +71,7 @@ const MultipleSelectChip = ({ listOptions, setSelected, selected }) => {
                     active && "bg-[#ffa15f]"
                   } cursor-pointer text-right`}
                 >
-                  {option}
+                  {option.name}
                 </h2>
               </div>
             );
@@ -73,4 +82,4 @@ const MultipleSelectChip = ({ listOptions, setSelected, selected }) => {
   );
 };
 
-export default MultipleSelectChip;
+export default MultipleSelectObj;
