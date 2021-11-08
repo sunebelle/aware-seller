@@ -18,3 +18,12 @@ export const checkout = catchAsync(async (req, res, next) => {
     message: `Successfully sent email to ${user.email}`,
   });
 });
+
+export const getOrders = catchAsync(async (req, res, next) => {
+  const orders = await Cart.find();
+  res.status(200).json({
+    status: "success",
+    result: orders.length,
+    data: orders,
+  });
+});

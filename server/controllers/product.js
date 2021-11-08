@@ -4,6 +4,9 @@ import AppError from "../utils/appError.js";
 import catchAsync from "../utils/catchAsync.js";
 
 export const createProduct = catchAsync(async (req, res, next) => {
+  console.log(req.body);
+  // Images processing
+  //import multer from "multer";
   const product = await Product.create(req.body);
   res.status(201).json({
     status: "successfully create new product",
@@ -132,8 +135,6 @@ export const getProductsBySearch = catchAsync(async (req, res) => {
     data: products,
   });
 });
-
-
 
 // export const getProductsBySearch = catchAsync(async (req, res) => {
 //   const { searchQuery } = req.query;
