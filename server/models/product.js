@@ -12,7 +12,7 @@ const productSchema = mongoose.Schema(
       // unique: true,
       default: `AZ-${Math.random().toString().substring(2, 8)}`,
     },
-    description: [String], //height.. made in...
+    description: [String],
     price: {
       type: Number,
       required: [true, "A product must have a price"],
@@ -52,27 +52,15 @@ const productSchema = mongoose.Schema(
     },
     color: {
       type: [String],
-      // type: String,
       required: [true, "Please provide the color of product"],
       //red, light-gold, cornflower, orange,charcoal-grey,white, black
     },
     brand: {
-      // type: [String],
       type: String,
       required: [true, "Please provide the brand of product"],
       //Zara, H&M,Pull&Bear,Dior,Chanel
     },
-    // for: {
-    //   type: String,
-    //   // men, ladies, boys, girls
-    //   required: [true, "A product must be used for a certain type of person"],
-    // },
-    // type: {
-    //   type: String,
-    //   // Tops/Bottoms/ Dresses/Jackets/Shoes/Accesories/Sale
-    //   required: [true, "A product must belong to a type"],
-    // },
-    // category: [mongoose.Schema.ObjectId],
+
     category: [
       {
         type: mongoose.Schema.ObjectId,
@@ -85,7 +73,7 @@ const productSchema = mongoose.Schema(
       default: 0,
       min: [0, "Rating must be above 1.0"],
       max: [5, "Rating must be below 5.0"],
-      set: (val) => Math.round(val * 10) / 10, // 4.666666, 46.6666, 47, 4.7
+      set: (val) => Math.round(val * 10) / 10,
     },
     ratingsQuantity: {
       type: Number,
@@ -101,16 +89,6 @@ const productSchema = mongoose.Schema(
     toObject: { virtuals: true },
   }
 );
-
-// productSchema.index({ category: 1 }); => having no effect at all.
-
-// productSchema.pre(/^find/, function (next) {
-//   this.populate({
-//     path: "category",
-//     select: "name",
-//   });
-//   next();
-// });
 
 //This virtual will not appear on the tour DB, but with input if it is populated
 productSchema.virtual("reviews", {

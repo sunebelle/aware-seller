@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-//review/rating/createdAt/ref to product/ ref to user
 import Product from "./product.js";
 
 const reviewSchema = mongoose.Schema(
@@ -27,10 +26,6 @@ const reviewSchema = mongoose.Schema(
       required: [true, "Review must belongs to a user"],
     },
   }
-  // {
-  //   toJSON: { virtuals: true },
-  //   toObject: { virtuals: true },
-  // }
 );
 // prevent dublicating review from a user for a product
 reviewSchema.index({ user: 1, product: 1 }, { unique: true });
@@ -67,21 +62,9 @@ reviewSchema.statics.calAverageRatings = async function (productId) {
 reviewSchema.post("save", function () {
   // this points to the current review to be saved to DB
   this.constructor.calAverageRatings(this.product);
-  // if (!req.body.product) req.body.product = req.params.productId;
 });
 
-// findByIdAndUpdate
-// findByIdAndDelete
-// reviewSchema.pre(/^findOneAnd/, async function(next) {
-//   this.r = await this.findOne();
-//   // console.log(this.r);
-//   next();
-// });
 
-// reviewSchema.post(/^findOneAnd/, async function() {
-//   // await this.findOne(); does NOT work here, query has already executed
-//   await this.r.constructor.calcAverageRatings(this.r.tour);
-// });
 
 const Review = mongoose.model("Review", reviewSchema);
 

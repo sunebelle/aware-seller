@@ -99,13 +99,7 @@ export const forgotPassword = catchAsync(async (req, res, next) => {
   // await user.save();
   // 3. send it to user's email
   try {
-    // console.log(req.protocol); || http
-    // console.log(req.get("host")); || localhost: 5000
-
-    // const resetURL = `${req.protocol}://${req.get(
-    //   "host"
-    // )}/api/v1/user/reset-password/${resetToken}`;
-    const resetURL = `http://localhost:3000/user/reset-password/${resetToken}`;
+    const resetURL = `https://aware-intern.web.app/user/reset-password/${resetToken}`;
     const message = `Please click the link below to enter your new password.\n${resetURL}.\nIf you do not forget password, please ignore this email.`;
     await sendEmail({
       subject: "Forgot Password (valid for 10 mins)",

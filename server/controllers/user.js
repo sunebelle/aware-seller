@@ -32,6 +32,5 @@ export const updateUser = catchAsync(async (req, res, next) => {
     data: {
       user: updatedUser,
     },
-    // message: "successfully updated user's doc",
   });
 });
