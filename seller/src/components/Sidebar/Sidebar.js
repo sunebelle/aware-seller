@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import menu from "./menu";
 
 const Sidebar = () => {
-  const [select, setSelect] = useState("Orders");
+  const [select, setSelect] = useState("Overview");
   return (
     <div className=" h-screen col-span-1 sticky top-0 bg-[#f6f6f6] border-r">
       <div className="h-[104px] flex items-center justify-center ">
